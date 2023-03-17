@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Atom/DataTypes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Atom/Functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/JetFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/JetFunctionsQuiz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,26 +28,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2N6x7vo2LHsbuFRXbdulzVJDk0w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mert_/OneDrive/Documents/GithubProjects/KotlinDevSource/KotlinDevSource",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mert_/OneDrive/Documents/GithubProjects/KotlinDevSource/KotlinDevSource&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\JetBrainsAcademy\JetBrainsAcademyFunction" />
+      <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.JetFunctionsQuizKt">
+    <configuration name="JetFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.JetBrainsAcademyFunction.JetFunctionsKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JetFunctionsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.JetBrainsAcademyFunction.JetFunctionsQuizKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="KotlinDevSource" />
@@ -46,6 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.JetFunctionsQuizKt" />
+        <item itemvalue="Kotlin.JetFunctionsKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -58,11 +94,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678998173441</updated>
-      <workItem from="1678998174814" duration="374000" />
+      <workItem from="1678998174814" duration="1956000" />
+      <workItem from="1679001233421" duration="8856000" />
+      <workItem from="1679014983707" duration="845000" />
+      <workItem from="1679020035267" duration="3532000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1678998576591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678998576591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
