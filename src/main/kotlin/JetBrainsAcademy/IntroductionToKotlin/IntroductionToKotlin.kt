@@ -88,4 +88,14 @@ class IntroductionToKotlin {
         val b = a++
         println(a)  // a = 11
         println(b)  // b = 10*/
+
+    /**
+     * SİMPLE CHAT NOTLARI
+     * VERİ TÜRLERİ
+     * Tip Çıkarımı
+        val greeting // error
+        greeting = "hello"
+
+        val greeting: String // ok
+        greeting = "hello"*/
 }
