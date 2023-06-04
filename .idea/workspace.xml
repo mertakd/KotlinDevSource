@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="Scanner.kt">
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/IntroductionToKotlin/IntroductionToKotlin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Functions/FunctionQuestions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IntroductionToKotlin/Scanner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IntroductionToKotlin/String.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MutableList/MutableList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/ShowMeAnimal.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/IntroductionToKotlin/ScannerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/IntroductionToKotlin/ScannerKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IntroductionToKotlin/IntroductionToKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IntroductionToKotlin/IntroductionToKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IntroductionToKotlin/Scanner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IntroductionToKotlin/Scanner.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -76,13 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultibleChooice5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.SimpleChattyBot.MultibleChooice5Kt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScannerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.IntroductionToKotlin.ScannerKt" />
       <module name="KotlinDevSource" />
@@ -90,8 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sold2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.CinemaRoomManager.Sold2Kt" />
+    <configuration name="ShowMeAnimalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Zookeeper.ShowMeAnimalKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.IntroductionToKotlin.StringKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,10 +102,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.ScannerKt" />
+        <item itemvalue="Kotlin.ShowMeAnimalKt" />
+        <item itemvalue="Kotlin.StringKt" />
         <item itemvalue="Kotlin.FunctionQuestionsKt" />
         <item itemvalue="Kotlin.Arrangement1Kt" />
-        <item itemvalue="Kotlin.Sold2Kt" />
-        <item itemvalue="Kotlin.MultibleChooice5Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +144,9 @@
       <workItem from="1684331748725" duration="752000" />
       <workItem from="1684862189081" duration="5000" />
       <workItem from="1685541677339" duration="121000" />
-      <workItem from="1685703812370" duration="12738000" />
+      <workItem from="1685703812370" duration="12835000" />
+      <workItem from="1685783566410" duration="14703000" />
+      <workItem from="1685818001884" duration="2690000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -193,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685726958001</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Scanner.kt">
+      <created>1685727031790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685727031790</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Scanner.kt">
+      <created>1685727048983</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685727048983</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
