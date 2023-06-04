@@ -118,10 +118,12 @@ const val rabbit = """Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!"""
 
-const val INPUT: String = "exit"
-val animals = arrayOf(camel, lion, deer, goose, bat, rabbit)
+//const val INPUT: String = "exit"
+//val animals = arrayOf(camel, lion, deer, goose, bat, rabbit)
 
-fun main() {
+
+/*
+fun main1() {
     // prompt message for the user
     val prompt = "Please enter the number of the habitat you would like to view: "
 
@@ -137,4 +139,29 @@ fun main() {
 
     } while (userInput != INPUT)
     println("See you later!") // message to be printed when user enters exit
+}*/
+
+
+
+val animals = arrayOf(camel, lion, deer, goose, bat, rabbit)
+fun main() {
+
+    do {
+
+        print("Please enter the number of the habitat you would like to view: >")
+        val inputNumberOfHabitat = readln()
+        when (inputNumberOfHabitat){
+            "0" -> println(animals[0])
+            "1" -> println(animals[1])
+            "2" -> println(animals[2])
+            "3" -> println(animals[3])
+            "4" -> println(animals[4])
+            "5" -> println(animals[5])
+            "exit" -> println("See you later!")
+            else -> println("Habitat doesn't exist")
+        }
+
+    }while (inputNumberOfHabitat != "exit")
 }
+
+
