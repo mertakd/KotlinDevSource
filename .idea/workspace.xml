@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="course repetition">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ForLoopAndRanges/ForLoopAndRanges.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IfExpression/IfExpression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/Function.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Ranges/Ranges.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="lesson 1 Andromeda Variable.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/CinemaRoomManager/MenuPlease4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/CinemaRoomManager/Tickets3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MultiList/MultiList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MutableList/MutableListWithForLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/When/When.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/GuessTheAgeStage3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/GuessTheAgeStage3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,37 +62,37 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ForLoopAndRangesKt">
-    <configuration name="ForLoopAndRangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ForLoopAndRanges.ForLoopAndRangesKt" />
+  <component name="RunManager" selected="Kotlin.MenuPlease4Kt">
+    <configuration name="MenuPlease4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.CinemaRoomManager.MenuPlease4Kt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.JetBrainsAcademyFunction.FunctionKt" />
+    <configuration name="MultiListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.MultiList.MultiListKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheAgeStage3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.SimpleChattyBot.GuessTheAgeStage3Kt" />
+    <configuration name="MutableListWithForLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.MutableList.MutableListWithForLoopKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.IfExpression.IfExpressionKt" />
+    <configuration name="Tickets3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.CinemaRoomManager.Tickets3Kt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Ranges.RangesKt" />
+    <configuration name="WhenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.When.WhenKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.FunctionKt" />
-        <item itemvalue="Kotlin.IfExpressionKt" />
-        <item itemvalue="Kotlin.ForLoopAndRangesKt" />
-        <item itemvalue="Kotlin.RangesKt" />
-        <item itemvalue="Kotlin.GuessTheAgeStage3Kt" />
+        <item itemvalue="Kotlin.MenuPlease4Kt" />
+        <item itemvalue="Kotlin.WhenKt" />
+        <item itemvalue="Kotlin.MultiListKt" />
+        <item itemvalue="Kotlin.Tickets3Kt" />
+        <item itemvalue="Kotlin.MutableListWithForLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +149,8 @@
       <workItem from="1685881409394" duration="10264000" />
       <workItem from="1685893343720" duration="677000" />
       <workItem from="1685957315358" duration="23916000" />
+      <workItem from="1686147084027" duration="6118000" />
+      <workItem from="1686226933061" duration="9790000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685904914330</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lesson 1 Andromeda Variable.kt">
+      <created>1686147284555</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686147284555</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
     <MESSAGE value="tekrar" />
     <MESSAGE value="Scanner.kt" />
     <MESSAGE value="course repetition" />
-    <option name="LAST_COMMIT_MESSAGE" value="course repetition" />
+    <MESSAGE value="lesson 1 Andromeda Variable.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 1 Andromeda Variable.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,7 +697,7 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt</url>
           <line>14</line>
-          <properties method="main">
+          <properties method="main21">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
