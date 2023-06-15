@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="lesson 1 Andromeda Variable.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/CinemaRoomManager/MenuPlease4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/CinemaRoomManager/Tickets3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MultiList/MultiList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MutableList/MutableListWithForLoop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/When/When.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="Andromeda Control Flow">
+      <change afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/Andromeda/Task1SecurityKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/CinemaRoomManager/MenuPlease4Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/Null/NullKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/ControlFlow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Null/Null.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
     </list>
@@ -45,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mert_/OneDrive/Documents/GithubProjects/KotlinDevSource/KotlinDevSource&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mert_/OneDrive/Documents/GithubProjects/BigNerdKotlin/SandBox/Sandbox&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,7 +63,14 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MenuPlease4Kt">
+  <component name="RunManager" selected="Kotlin.ControlFlowKt">
+    <configuration name="ControlFlowKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Andromeda.ControlFlowKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MenuPlease4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.CinemaRoomManager.MenuPlease4Kt" />
       <module name="KotlinDevSource" />
@@ -70,22 +78,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.MultiList.MultiListKt" />
+    <configuration name="NullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Null.NullKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableListWithForLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.MutableList.MutableListWithForLoopKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tickets3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.CinemaRoomManager.Tickets3Kt" />
+    <configuration name="Task1SecurityKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Andromeda.Task1SecurityKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ControlFlowKt" />
+        <item itemvalue="Kotlin.NullKt" />
+        <item itemvalue="Kotlin.Task1SecurityKt" />
         <item itemvalue="Kotlin.MenuPlease4Kt" />
         <item itemvalue="Kotlin.WhenKt" />
-        <item itemvalue="Kotlin.MultiListKt" />
-        <item itemvalue="Kotlin.Tickets3Kt" />
-        <item itemvalue="Kotlin.MutableListWithForLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,10 @@
       <workItem from="1685893343720" duration="677000" />
       <workItem from="1685957315358" duration="23916000" />
       <workItem from="1686147084027" duration="6118000" />
-      <workItem from="1686226933061" duration="9790000" />
+      <workItem from="1686226933061" duration="10437000" />
+      <workItem from="1686313096255" duration="16106000" />
+      <workItem from="1686768543243" duration="235000" />
+      <workItem from="1686854686893" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -229,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686147284555</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="menu please 4">
+      <created>1686238784500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686238784500</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +268,9 @@
     <MESSAGE value="Scanner.kt" />
     <MESSAGE value="course repetition" />
     <MESSAGE value="lesson 1 Andromeda Variable.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 1 Andromeda Variable.kt" />
+    <MESSAGE value="menu please 4" />
+    <MESSAGE value="Andromeda Control Flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Andromeda Control Flow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,6 +635,61 @@
           <line>21</line>
           <option name="timeStamp" value="391" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>3</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>4</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>6</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>
           <line>16</line>
@@ -702,6 +770,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>2</line>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
+          <line>10</line>
+          <properties method="encryptMessage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="399" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
