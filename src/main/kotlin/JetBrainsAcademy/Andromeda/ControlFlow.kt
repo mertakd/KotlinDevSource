@@ -35,5 +35,5 @@ fun main() {
 
 
 
-
+///vararg arka planda nasıl çalışır?
 }
