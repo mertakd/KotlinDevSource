@@ -1,6 +1,8 @@
 package JetBrainsAcademy.JumpsAndReturns
 
-
+/*
+*Kotlin'de bulunan tüm yapısal atlama ifadeleri:break,return,continue
+* Which keyword allows jumping out of both a loop and a function at the same time?  return */
 
 fun main1() {
 
@@ -105,3 +107,99 @@ fun main5() {
 *Görüldüğü gibi, break ifadesini bir etiketle birlikte kullanarak iç döngüyü (j döngüsü) tamamen sonlandırabiliriz. Bu sayede, iç döngü sonlandığında dış döngüye devam edilmez ve dış döngü de sonlanmış olur.
 *Etiketler, iç içe geçmiş döngülerde dış döngüyü sonlandırmak istediğimiz durumlarda kullanılır. Etiketli break ifadesi, belirtilen etiketle etiketlenmiş döngüyü sonlandırır.
 *   */
+
+
+
+fun main6() {
+
+    loop@ for (i in 1..3) {
+        for (j in 1..3) {
+            for (k in 1..3) {
+                if (k == 2) continue@loop
+                println("i = $i, j = $j, k = $k")
+            }
+        }
+    }
+}
+
+//j döngüsü atlanır en üst döngüye döner
+
+
+
+
+
+
+
+
+
+//When and structural jump expressions
+fun main7() {
+
+    //kotlin 1.4 öncesi
+
+    Loop@ for (i in 1..10) {
+        when (i) {
+            3 -> continue@Loop
+            6 -> break@Loop
+            else -> println(i)
+        }
+    }
+
+}
+
+
+fun main8() {
+
+    //kotlin 1.4 sonrası daha kolay
+
+    for (i in 1..10) {
+        when (i) {
+            3 -> continue
+            6 -> break
+            else -> println(i)
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+//The Return Statement
+fun foo() {
+    val number = intArrayOf(1, 2, 3, 4, 5)
+    for (it in number) {
+        if (it == 3) return // non-local return directly to the caller of foo()
+        print(it)
+    }
+    println("this point is unreachable")
+}
+
+fun main() {
+    foo() // calling foo()
+    println()
+    println("foo() is over")
+    for (i in 1..10) {
+        for (j in 1..10) {
+            println("i = $i, j = $j")
+            if (j == 3) return // local return to the caller of main()
+        }
+        println("this point is unreachable")
+    }
+    println("this point is unreachable")
+}
+
+
+
+
+
+
+
+
+
