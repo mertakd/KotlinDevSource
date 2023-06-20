@@ -17,9 +17,9 @@ fun main1() {
 * 1.parametre ınt
 * 2.parametre ınt
 * bu fonksıyonun dönüş değeri int olur*/
-fun getName() = "Mert"
+//fun getName() = "Mert"
 //fun getName(parametre:String) = val name stataement değer döndürmüyor
-val name = "${4+2}"
+//val name = "${4+2}"
 
 fun sum(a:Int, b:Int):Int{
     return a + b

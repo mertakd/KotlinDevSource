@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="andromeda">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/RockPaperScissors.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/AndromedaTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/AndromedaTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/HighOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/HighOrder.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +60,9 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.VarargsKt">
+  <component name="RunManager" selected="Kotlin.LambdaAndHighOrderFuncKt">
     <configuration name="AndromedaTaskKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Andromeda.AndromedaTaskKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControlFlowKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Andromeda.ControlFlowKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,6 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdaAndHighOrderFuncKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeadFirstKotlin.LambdaAndHighOrderFuncKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VarargsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Andromeda.VarargsKt" />
       <module name="KotlinDevSource" />
@@ -94,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LambdaAndHighOrderFuncKt" />
         <item itemvalue="Kotlin.VarargsKt" />
         <item itemvalue="Kotlin.AndromedaTaskKt" />
         <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Kotlin.JumpAndReturnsKt" />
-        <item itemvalue="Kotlin.ControlFlowKt" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +161,8 @@
       <workItem from="1687129774608" duration="4717000" />
       <workItem from="1687138647342" duration="3118000" />
       <workItem from="1687190342777" duration="5929000" />
-      <workItem from="1687219561531" duration="710000" />
+      <workItem from="1687219561531" duration="831000" />
+      <workItem from="1687281271188" duration="3207000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -278,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687204021430</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="andromeda">
+      <created>1687230591411</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687230591411</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,6 +778,68 @@
           <line>419</line>
           <option name="timeStamp" value="447" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>176</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>177</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>181</line>
+          <option name="timeStamp" value="466" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>182</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>183</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>184</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>185</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>186</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>188</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>190</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>
           <line>16</line>
@@ -846,6 +920,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>179</line>
+          <properties method="getConversionLambda">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="465" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

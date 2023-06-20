@@ -29,7 +29,7 @@ fun main() {
 //FOREACH DE BREAK VE CONTINUE KULLANIMI LABEL İLE
 
 //CONTINUE
-fun main1() {
+fun main11() {
 
     val list = listOf(3, 4, 3, 4, 3)
     var sum = 0
