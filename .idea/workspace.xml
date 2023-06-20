@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="task">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/HighOrder.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="andromeda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +156,8 @@
       <workItem from="1687099575035" duration="5026000" />
       <workItem from="1687129774608" duration="4717000" />
       <workItem from="1687138647342" duration="3118000" />
-      <workItem from="1687190342777" duration="5896000" />
+      <workItem from="1687190342777" duration="5929000" />
+      <workItem from="1687219561531" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687141845496</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="andromeda">
+      <created>1687204021430</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687204021430</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +310,8 @@
     <MESSAGE value="Andromeda Control Flow" />
     <MESSAGE value="Jumps and Returns" />
     <MESSAGE value="task" />
-    <option name="LAST_COMMIT_MESSAGE" value="task" />
+    <MESSAGE value="andromeda" />
+    <option name="LAST_COMMIT_MESSAGE" value="andromeda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
