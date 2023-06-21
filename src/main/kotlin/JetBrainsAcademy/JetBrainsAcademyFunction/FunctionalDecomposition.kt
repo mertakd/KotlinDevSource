@@ -25,4 +25,18 @@ fun validatePassword(password:String): Boolean{
 
 fun main() {
 
+    val firstName = readln()
+    val lastName = readln()
+    val fullName = createFullname2(firstName, lastName)
+    println(fullName)
+
 }
+
+
+
+
+fun createFullName(firstName:String, lastName:String): String{
+    return "$firstName $lastName"
+}
+
+fun createFullname2(firstName: String,lastName: String) = "$firstName $lastName"

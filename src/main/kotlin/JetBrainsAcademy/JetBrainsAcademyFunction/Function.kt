@@ -357,8 +357,19 @@ fun findMax(n1: Int, n2: Int, absolute: Boolean = false): Int {
 }
 
 
+fun tip(bill:Int, percentage:Int = 10):Int{
+    val tipAmount = (bill*percentage) / 100
+    return tipAmount.toInt()
+}
 
 
+fun main24() {
+    val result =concatenate("hello", "kotlin","love","~~~")
+    println(result)
+}
+fun concatenate(string1: String, string2: String, string3: String, separator: String = " "): String {
+    return "$string1$separator$string2$separator$string3"
+}
 
 
 //default func quiz
@@ -394,7 +405,7 @@ fun repeat(s: String, times: Int = 1, upperCase: Boolean = true): String {
 }*/
 
 
-fun main() {
+fun main23() {
 
     val result = repeat("j")
     println(result)
