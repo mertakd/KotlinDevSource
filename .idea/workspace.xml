@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="FunctionalDecomposition.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/RecursionFunctions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/Scope.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="RecursionFunctions.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Andromeda/BayramTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Andromeda/BayramTask2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Andromeda/BayramTask3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/Function.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/Function.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionalDecomposition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionalDecomposition.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +61,9 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="AndromedaTaskKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Andromeda.AndromedaTaskKt" />
+  <component name="RunManager" selected="Kotlin.BayramTask3Kt">
+    <configuration name="BayramTask3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Andromeda.BayramTask3Kt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BayramTask3Kt" />
         <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Kotlin.FunctionalDecompositionKt" />
         <item itemvalue="Kotlin.LambdaAndHighOrderFuncKt" />
         <item itemvalue="Kotlin.VarargsKt" />
-        <item itemvalue="Kotlin.AndromedaTaskKt" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +164,10 @@
       <workItem from="1687190342777" duration="5929000" />
       <workItem from="1687219561531" duration="831000" />
       <workItem from="1687281271188" duration="10193000" />
-      <workItem from="1687307490044" duration="3926000" />
+      <workItem from="1687307490044" duration="5983000" />
+      <workItem from="1687350356498" duration="814000" />
+      <workItem from="1687405912630" duration="6378000" />
+      <workItem from="1687428933955" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -307,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687292792345</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="RecursionFunctions.kt">
+      <created>1687321645020</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687321645020</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +351,8 @@
     <MESSAGE value="andromeda" />
     <MESSAGE value="head first kotlin added" />
     <MESSAGE value="FunctionalDecomposition.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="FunctionalDecomposition.kt" />
+    <MESSAGE value="RecursionFunctions.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="RecursionFunctions.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -834,6 +844,81 @@
           <line>40</line>
           <option name="timeStamp" value="496" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>5</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>6</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>9</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>10</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="504" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="505" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="507" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="509" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="510" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Andromeda/BayramTask3.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="552" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Andromeda/BayramTask3.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="553" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>
           <line>16</line>
@@ -932,6 +1017,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
+          <line>19</line>
+          <properties method="printNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Andromeda/BayramTask3.kt</url>
+          <line>39</line>
+          <properties method="swapFirstAndLast">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="551" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
