@@ -123,6 +123,8 @@ fun main5() {
 
     val fahrenheit2 = convert(20.0, {it * 1.8 + 32} ) //it ile kısaltabilitoruz
 
+    val fahrenheit3 = convert(20.0) { it * 1.8 + 32 }
+
 }
 
 fun convert(x:Double, converter: (Double) -> Double) : Double{
