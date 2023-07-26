@@ -12,6 +12,6 @@ fun main() {
 
 }
 
-println("deneme")
+
 
 

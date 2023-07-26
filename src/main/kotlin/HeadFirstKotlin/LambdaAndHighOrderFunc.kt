@@ -174,7 +174,7 @@ fun convertFive(converter: (Int) -> Double) : Double{
 
 //geri dönüş değeri olarak lambda
 
-fun main() {
+fun main7() {
 
     val pounds = getConversionLambda("KgsToPounds") (5.0)
     println(pounds)
@@ -191,6 +191,114 @@ fun getConversionLambda(str: String): (Double) -> Double {
         return {it}
     }
 }
+
+
+//noraml fonksiyonla dönüştürme
+fun main8() {
+
+    val number = 5
+
+    val squaredNumber = square(number)
+    val cubedNumber = cube(number)
+
+    println("Squared Number: $squaredNumber")
+    println("Cubed Number: $cubedNumber")
+}
+
+
+fun square(x:Int):Int{
+    return x * x
+}
+
+fun cube(x:Int):Int{
+    return x * x * x
+}
+
+
+
+
+//High-order Fonksiyon ve Lambda İfadesi Kullanarak Dönüşüm:
+//High-order fonksiyon ve lambda ifadesi kullanıldığında ise convert fonksiyonu sayesinde farklı dönüştürme işlemleri için ayrı ayrı fonksiyon tanımlamamıza gerek yoktur. Dönüşümü lambda ifadesi olarak belirleyerek farklı dönüşüm işlemlerini tek bir fonksiyonla gerçekleştirebiliriz.
+
+fun main9() {
+
+    val number = 5
+
+    val square = { x:Int -> x * x}
+    val cube = {x:Int -> x * x * x}
+
+    val squaredNumber = convert2(number, square)
+    val cubedNumber = convert2(number,cube)
+
+
+    println("Squared number: $squaredNumber")
+    println("Cubed number: $cubedNumber")
+}
+fun convert2(x:Int, converter: (Int) -> Int): Int{
+    return converter(x)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Lambda İfadeleri Kullanmadan
+fun convert4(conversionType:String, amount:Double): Double{
+    return when(conversionType){
+        "DollarToTL" -> amount * 26.96
+        "EuroToTL" -> amount * 29.87
+        "PoundToTL" -> amount * 34.82
+        else -> amount
+    }
+}
+
+
+fun main10() {
+
+    val amount = 100.0
+
+    val tlFromDollar = convert4("DollarToTL", amount)
+    println("$amount dolar, $tlFromDollar Türk Lirası Ediyor")
+
+    val tlFromEuro = convert4("EuroToTL", amount)
+    println("$amount euro, $tlFromEuro Türk Lirası Ediyor")
+
+    val tlFromPound = convert4("PoundToTL", amount)
+    println("$amount pound, $tlFromPound Türk Lirası Ediyor")
+}
+
+
+
+//High-Order Fonksiyon ve Lambda İfadeleri Kullanarak
+
+
+fun main() {
+    val amount = 100.0
+
+    val tlFromDollar = convertTo(amount) {it * 26.96}
+    println("$amount dolar, $tlFromDollar Türk Lirası Eder")
+
+    val tlFromEuro = convert(amount) {it * 29.87}
+    println("$amount euro, $tlFromEuro Türk Lirası Eder")
+
+    val tlFromPound = convert(amount) {it * 34.82}
+    println("$amount pound, $tlFromPound Türk Lirası Eder")
+}
+
+fun convertTo(amount:Double, converter: (Double) -> Double):Double{
+    return  converter(amount)
+}
+
+
+
 
 
 

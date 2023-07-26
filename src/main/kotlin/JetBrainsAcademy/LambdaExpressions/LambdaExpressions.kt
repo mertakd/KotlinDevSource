@@ -109,7 +109,7 @@ val lambda: (Long, Long) -> Long = { left, right ->
 }
 
 
-fun main() {
+fun main2() {
 
     val result1 = lambda2(5, 9)   // 9
     val result2 = lambda2(2, 2)   // 2 (Eğer iki sayı aynı ise sonuç herhangi biri olabilir)
@@ -138,4 +138,11 @@ fun findMax(a: Int, b: Int): Int {
         b
     }
 }
+
+fun main() {
+    val lambda5: (Int, Int) -> Int = {a, b -> if (a >= b) a else b}
+    println(lambda5)
+}
+
+
 
