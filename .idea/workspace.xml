@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="lambda expression jetbrains">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LetRunWith.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="Coffee1.kt&#10;Coffee2.kt">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IfExpression/IfExpressionQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/LambdaExpressions/FunctionsAsObjectKt$getScoringFunction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/LambdaExpressions/FunctionsAsObjectKt$getScoringFunction$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/LambdaExpressions/FunctionsAsObjectKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/LambdaExpressions/FunctionsAsObjectKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/LambdaExpressions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/LambdaExpressions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MutableList/MutableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MutableList/MutableList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -54,6 +41,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mert_/OneDrive/Documents/GithubProjects/BigNerdKotlin/SandBox/Sandbox&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -72,16 +60,9 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LambdaExpressionsKt">
-    <configuration name="BayramTask3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Andromeda.BayramTask3Kt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionsAsObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.LambdaExpressions.FunctionsAsObjectKt" />
+  <component name="RunManager" selected="Kotlin.MutableListKt">
+    <configuration name="IfExpressionQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.IfExpression.IfExpressionQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,13 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MutableListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.MutableList.MutableListKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MutableListKt" />
+        <item itemvalue="Kotlin.IfExpressionQuizKt" />
         <item itemvalue="Kotlin.LambdaExpressionsKt" />
         <item itemvalue="Kotlin.LambdaAndHighOrderFuncKt" />
         <item itemvalue="Kotlin.LetRunWithKt" />
-        <item itemvalue="Kotlin.FunctionsAsObjectKt" />
-        <item itemvalue="Kotlin.BayramTask3Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +172,10 @@
       <workItem from="1690182360617" duration="12388000" />
       <workItem from="1690278850232" duration="9595000" />
       <workItem from="1690352162399" duration="597000" />
-      <workItem from="1690364410580" duration="5448000" />
+      <workItem from="1690364410580" duration="5792000" />
+      <workItem from="1690442646132" duration="1000" />
+      <workItem from="1690473474441" duration="1774000" />
+      <workItem from="1690538834403" duration="4976000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -347,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690225862652</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="lambda">
+      <created>1690374232815</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1690374232815</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Coffee1.kt&#10;Coffee2.kt">
+      <created>1690475228341</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1690475228341</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +390,9 @@
     <MESSAGE value="RecursionFunctions.kt" />
     <MESSAGE value="bayram" />
     <MESSAGE value="lambda expression jetbrains" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda expression jetbrains" />
+    <MESSAGE value="lambda" />
+    <MESSAGE value="Coffee1.kt&#10;Coffee2.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coffee1.kt&#10;Coffee2.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
