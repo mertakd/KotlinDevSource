@@ -1,6 +1,6 @@
 package JetBrainsAcademy.Loops
 
-fun main20() {
+fun main2a() {
 
     var i = 0
     while (i > 0) {
@@ -12,7 +12,7 @@ fun main20() {
 }
 
 
-fun main21() {
+fun main3a() {
 
     var i = 3
     do {
@@ -22,9 +22,43 @@ fun main21() {
 }
 
 
-fun main() {
+fun main4a() {
+
+    var i = 5
+
+    do {
+        i++
+        print("$i")
+        i -= 2
+
+    }while (i > 1)
 
 }
+
+
+
+
+fun main() {
+
+    var i = 0
+
+    while (i < 10){
+        i++
+        if (i % 2 == 0){
+            print("$i")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

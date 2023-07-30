@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="Coffee1.kt&#10;Coffee2.kt">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IfExpression/IfExpressionQuiz.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="repeat mutable list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MutableList/MutableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/MutableList/MutableList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/MutableList/MutableListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/MutableList/MutableListKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MutableListKt">
+  <component name="RunManager" selected="Kotlin.While2Kt">
     <configuration name="IfExpressionQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.IfExpression.IfExpressionQuizKt" />
       <module name="KotlinDevSource" />
@@ -82,13 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetRunWithKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeadFirstKotlin.LetRunWithKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MutableListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.MutableList.MutableListKt" />
       <module name="KotlinDevSource" />
@@ -96,13 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="While2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Loops.While2Kt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.While2Kt" />
         <item itemvalue="Kotlin.MutableListKt" />
         <item itemvalue="Kotlin.IfExpressionQuizKt" />
         <item itemvalue="Kotlin.LambdaExpressionsKt" />
         <item itemvalue="Kotlin.LambdaAndHighOrderFuncKt" />
-        <item itemvalue="Kotlin.LetRunWithKt" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,8 @@
       <workItem from="1690364410580" duration="5792000" />
       <workItem from="1690442646132" duration="1000" />
       <workItem from="1690473474441" duration="1774000" />
-      <workItem from="1690538834403" duration="4976000" />
+      <workItem from="1690538834403" duration="5031000" />
+      <workItem from="1690722157563" duration="2953000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -352,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690475228341</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="repeat mutable list">
+      <created>1690557064982</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1690557064982</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +400,8 @@
     <MESSAGE value="lambda expression jetbrains" />
     <MESSAGE value="lambda" />
     <MESSAGE value="Coffee1.kt&#10;Coffee2.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coffee1.kt&#10;Coffee2.kt" />
+    <MESSAGE value="repeat mutable list" />
+    <option name="LAST_COMMIT_MESSAGE" value="repeat mutable list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,36 +707,6 @@
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt</url>
-          <line>16</line>
-          <option name="timeStamp" value="386" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt</url>
-          <line>17</line>
-          <option name="timeStamp" value="387" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt</url>
-          <line>18</line>
-          <option name="timeStamp" value="388" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt</url>
-          <line>19</line>
-          <option name="timeStamp" value="389" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt</url>
-          <line>20</line>
-          <option name="timeStamp" value="390" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt</url>
-          <line>21</line>
-          <option name="timeStamp" value="391" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
           <line>3</line>
           <option name="timeStamp" value="393" />
@@ -940,15 +919,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Loops/While2.kt</url>
-          <line>14</line>
-          <properties method="main21">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="392" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
