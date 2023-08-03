@@ -1,70 +1,42 @@
 package JetBrainsAcademy.LambdaExpressions
+
+
+
+
 /*
+* Functions without names
+* anonymous ve lambda olarak kullanılır
+
+
+*   fun (a:Int, b:Int):Int{
+        return a * b
+    }
+
+
+
+    {a:Int, b:Int -> a * b}
+
+
+
+    * */
+
+
+
+/*
+
+
+//Bir değişkene atıyoruz
+val mul1 = fun (a:Int, b:Int):Int{
+    return a* b
+}
+
+val mul2 = {a:Int, b:Int -> a * b}
+
 
 fun main() {
 
-    println(mul1(2, 3))  // prints "6"
-    println(mul2(2, 3))  // prints "6" too
-
-}
-*/
-
-
-
-/*
-
-//anonymous
-fun(a:Int, b:Int):Int{
-    return a *b
-}
-
-
-//lambda expression:
-{a:Int, b:Int -> a * b}
-
-*/
-
-
-
-/*
-
-
-val mul1 = fun(a: Int, b: Int): Int {
-    return a * b
-}
-
-val mul2 = { a: Int, b: Int -> a * b }
-
-*/
-
-
-
-/*
-
-fun main() {
-
-
-    fun isNotDot(c: Char): Boolean = c != '.'
-    val originalText = "I don't know... what to say..."
-    val textWithoutDots = originalText.filter(::isNotDot)
-    println(textWithoutDots) // I don't know what to say
-
-
-
-
-
-    val originalText = "I don't know... what to say..."
-    val textWithoutDots = originalText.filter({ c: Char -> c != '.' })   //val textWithoutDots = originalText.filter{ c: Char -> c != '.' } bu da oluyor
-    println(textWithoutDots) // I don't know what to say
-
-
-
-    originalText.filter() { c -> c != '.' }
-    If the parentheses are left empty after that operation, you can remove them:
-
-    originalText.filter { c -> c != '.' }
-
-
+    println(mul1(2,3))
+    println(mul2(2,3))
 
 }
 
@@ -75,16 +47,42 @@ fun main() {
 
 
 /*
+*Lambdas and syntactic sugar */
 
 
-//Implicit name of a single parameter: it
+fun isNotDot(c: Char): Boolean = c != '.'
+fun isNotDot2(c:Char): Boolean{
+    return c != '.'
+}
 
 fun main() {
 
     val originalText = "I don't know... what to say..."
-    val textWithoutDots = originalText.filter { it != '.' }
+    val textWithoutDots = originalText.filter (::isNotDot)
+    println(textWithoutDots)
+
+
+
+    val originalText2 = "I don't know... what to say..."
+    val textWithoutDots2 = originalText2.filter({c:Char -> c != '.'})
+
+    //tür belirtmemize gerek yok
+    val textWithoutDots2b = originalText2.filter({ c -> c != '.'})
+
+    // lambda'nın son argüman olarak iletildiği durum
+    val textWithoutDots2c = originalText2.filter() {c -> c != '.'  }
+
+    //Bu işlemden sonra parantezler boş bırakılırsa kaldırabilirsiniz:
+    val textWithoutDots2d = originalText2.filter { c -> c != '.' }
+
+    //Implicit name
+    val textWithoutImplicit = originalText2.filter { it != '.' }
+    println(textWithoutDots2)
+
+
+
 }
-*/
+
 
 
 
@@ -139,7 +137,7 @@ fun findMax(a: Int, b: Int): Int {
     }
 }
 
-fun main() {
+fun main3a() {
     val lambda5: (Int, Int) -> Int = {a, b -> if (a >= b) a else b}
     println(lambda5)
 }

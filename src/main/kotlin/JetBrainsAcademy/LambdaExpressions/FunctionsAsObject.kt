@@ -1,4 +1,49 @@
 package JetBrainsAcademy.LambdaExpressions
+
+
+/*
+*first-class citizen
+*Bu terim, bir programlama dilindeki nesnelerin nasıl işlendiği ve kullanılabileceği ile ilgilidir.
+*Bir nesnenin "first-class citizen" olarak kabul edilmesi, o nesnenin program içinde diğer nesnelerle aynı düzeyde ve özgürce işlem görebileceği anlamına gelir.
+*
+*Değişkenlerde saklanabilir: Bu tür nesneler, değişkenlerin içinde saklanabilir ve diğer nesneler gibi atama ve işlem yapılabilir.
+* Fonksiyonlara parametre olarak geçilebilir: Bir fonksiyon, bir "first-class citizen" nesnesini parametre olarak alabilir ve onun üzerinde işlem yapabilir.
+* Fonksiyonlardan geri dönebilir: Bir fonksiyon, başka bir fonksiyonu sonuç olarak döndürebilir ve böylece diğer nesnelerle işlem görebilir.
+* Veri yapılarında kullanılabilir: "First-class citizen" nesneler, veri yapılarında saklanabilir ve bu veri yapıları üzerinde işlem yapılabilir.
+*
+* "First-class citizens" kavramı, programlama dilinin esnekliği ve fonksiyonel programlama konseptleri açısından önemlidir. Bu özelliklere sahip nesneler, programcılara daha güçlü ve esnek kodlar yazma imkanı tanır.
+* Özetle, "first-class citizens" olarak adlandırılan nesneler, programlama dillerinde diğer nesnelerle eşit düzeyde işlem görebilen ve serbestçe kullanılabilen nesnelerdir.   */
+
+
+
+/*FUNCTION REFERANCE
+*Kotlin dilinde, işlevleri (fonksiyonları) birer nesne gibi ele alabiliriz. Yani, bir fonksiyonu bir değişkenin değeri olarak saklayabilir ve o fonksiyonu başka bir yerde kullanabiliriz. Buna "function references" yani "fonksiyon referansları" denir.
+*  */
+
+fun sum(a:Int, b:Int):Int{
+    return a + b
+}
+
+
+//Fonsiyon referansı elde etme
+//sum adlı fonksiyonun referansı ellde edildi.
+val sumObject = ::sum
+
+//türü belirterek tanımlama
+val sumObject2: (Int, Int) -> Int =::sum
+
+
+
+//Fonksiyon referansını doğrudan kullanma
+val result = sumObject(10,20)
+
+
+
+
+
+
+
+
 /*
 
 fun main1() {
@@ -136,6 +181,7 @@ fun zero(x: Int): Int = 0
 */
 
 
+/*
 fun main() {
 
     val value = 5
@@ -151,3 +197,4 @@ fun square(x: Int): Int = x * x
 fun composition(value: Int, y: (Int) -> Int, g: (Int) -> Int): Int {
     return y(g(value))
 }
+*/
