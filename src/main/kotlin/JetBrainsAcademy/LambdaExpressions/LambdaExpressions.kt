@@ -1,3 +1,5 @@
+@file:Suppress("UNUSED_EXPRESSION")
+
 package JetBrainsAcademy.LambdaExpressions
 
 
@@ -55,7 +57,7 @@ fun isNotDot2(c:Char): Boolean{
     return c != '.'
 }
 
-fun main() {
+fun main3A() {
 
     val originalText = "I don't know... what to say..."
     val textWithoutDots = originalText.filter (::isNotDot)
@@ -87,7 +89,7 @@ fun main() {
 
 
 //QUİZ
-fun main1() {
+fun main5() {
 
     val result1 = lambda(2, 5)   // 2 * 3 * 4 * 5 = 120
     val result2 = lambda(3, 3)   // Sonuç 3 veya herhangi bir sınır olabilir (3 * 1 = 3)
@@ -142,5 +144,56 @@ fun main3a() {
     println(lambda5)
 }
 
+
+
+var counter: () -> Int = { -42 }
+
+fun reinitializeCounter(): Int {
+    var value = 0
+    counter = { ++value }
+    return value
+}
+
+fun main4() {
+    // counter'ı çağırarak ilk değeri elde edelim
+    println(counter()) // Çıktı: -42
+
+    // counter'ı çağırarak sayaç işlevini kullanalım
+    println(counter()) // Çıktı: 1
+    println(counter()) // Çıktı: 2
+    println(counter()) // Çıktı: 3
+
+    // reinitializeCounter fonksiyonunu çağırarak counter'ı sıfırlayalım
+    val initialValue = reinitializeCounter()
+    println("Counter sıfırlandı. Başlangıç değeri: $initialValue") // Çıktı: Counter sıfırlandı. Başlangıç değeri: 3
+
+    // counter'ı tekrar çağırarak artık sıfırdan başlayan sayacı kullanalım
+    println(counter()) // Çıktı: 1
+    println(counter()) // Çıktı: 2
+}
+
+
+
+fun fizzbuzz(from: Int, to: Int, transformation: (Int) -> String) {
+    for (number in from..to) {
+        println(transformation(number))
+    }
+}
+
+fun main() {
+
+    fizzbuzz(1, 100) { number ->
+        if (number % 15 == 0) {
+            "fizzbuzz"
+        }
+        if (number % 3 == 0) {
+            "fizz"
+        }
+        if (number % 5 == 0) {
+            "buzz"
+        }
+        number.toString()
+    }
+}
 
 
