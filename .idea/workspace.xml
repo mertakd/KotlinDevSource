@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="repeat 3.08">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/deneme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/ScopeFunctions.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="repeat scope function">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Andromeda/ScopeFunction14.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/Arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Turkcell/Lists/ArrayAndArrayList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/LambdaExpressions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/LambdaExpressions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/ScopeFuctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/ScopeFuctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/Kekod/FunctionsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Kekod/Functions.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +63,16 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ScopeFuctionsKt">
-    <configuration name="ConstructorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.OOP.ConstructorsKt" />
+  <component name="RunManager" selected="Kotlin.ArraysKt">
+    <configuration name="ArrayAndArrayListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Turkcell.Lists.ArrayAndArrayListKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Arrays.ArraysKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,13 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.OOP.MemberFunctionsKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScopeFuctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.LambdaExpressions.ScopeFuctionsKt" />
       <module name="KotlinDevSource" />
@@ -99,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ArraysKt" />
+        <item itemvalue="Kotlin.ArrayAndArrayListKt" />
         <item itemvalue="Kotlin.ScopeFuctionsKt" />
         <item itemvalue="Kotlin.LambdaExpressionsKt" />
         <item itemvalue="Kotlin.FunObjectQuizKt" />
-        <item itemvalue="Kotlin.MemberFunctionsKt" />
-        <item itemvalue="Kotlin.ConstructorsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +186,9 @@
       <workItem from="1690971621393" duration="9226000" />
       <workItem from="1691057731496" duration="12007000" />
       <workItem from="1691147495840" duration="13547000" />
-      <workItem from="1691187807688" duration="1224000" />
+      <workItem from="1691187807688" duration="1853000" />
+      <workItem from="1691237349974" duration="12379000" />
+      <workItem from="1691313826428" duration="12019000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -382,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691082330978</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="repeat scope function">
+      <created>1691193652043</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1691193652043</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +436,8 @@
     <MESSAGE value="repeat mutable list" />
     <MESSAGE value="repeat" />
     <MESSAGE value="repeat 3.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="repeat 3.08" />
+    <MESSAGE value="repeat scope function" />
+    <option name="LAST_COMMIT_MESSAGE" value="repeat scope function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
