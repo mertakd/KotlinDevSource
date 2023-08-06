@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/StringsArrays.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="for loop arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/META-INF/KotlinDevSource.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/Arrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Turkcell/Lists/ArrayAndArrayList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Turkcell/Lists/ArrayAndArrayList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ForLoopArraysKt">
+  <component name="RunManager" selected="Kotlin.ListKt">
     <configuration name="ArrayAndArrayListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Turkcell.Lists.ArrayAndArrayListKt" />
       <module name="KotlinDevSource" />
@@ -84,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScopeFuctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.LambdaExpressions.ScopeFuctionsKt" />
+    <configuration name="ListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Collections.List.ListKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ListKt" />
         <item itemvalue="Kotlin.ForLoopArraysKt" />
         <item itemvalue="Kotlin.StringsArraysKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.ArrayAndArrayListKt" />
-        <item itemvalue="Kotlin.ScopeFuctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +184,7 @@
       <workItem from="1691147495840" duration="13547000" />
       <workItem from="1691187807688" duration="1853000" />
       <workItem from="1691237349974" duration="12379000" />
-      <workItem from="1691313826428" duration="19594000" />
+      <workItem from="1691313826428" duration="24168000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -399,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691340739509</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="for loop arrays">
+      <created>1691350380217</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1691350380217</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +422,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="declaring functions" />
     <MESSAGE value="data types" />
     <MESSAGE value="zookeeper" />
     <MESSAGE value="güncelleme yapıldı" />
@@ -443,7 +446,8 @@
     <MESSAGE value="repeat 3.08" />
     <MESSAGE value="repeat scope function" />
     <MESSAGE value="arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
+    <MESSAGE value="for loop arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="for loop arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,52 +913,47 @@
           <option name="timeStamp" value="510" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>68</line>
-          <option name="timeStamp" value="564" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>69</line>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>26</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
-          <option name="timeStamp" value="565" />
+          <option name="timeStamp" value="579" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>70</line>
-          <option name="timeStamp" value="566" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="580" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>72</line>
-          <option name="timeStamp" value="567" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="581" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>73</line>
-          <option name="timeStamp" value="568" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="582" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>74</line>
-          <option name="timeStamp" value="569" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>32</line>
+          <option name="timeStamp" value="584" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>75</line>
-          <option name="timeStamp" value="570" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="585" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>79</line>
-          <option name="timeStamp" value="571" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="586" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt</url>
-          <line>80</line>
-          <option name="timeStamp" value="572" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="587" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>
@@ -1054,6 +1053,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="554" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt</url>
+          <line>31</line>
+          <properties method="solution">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="583" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
