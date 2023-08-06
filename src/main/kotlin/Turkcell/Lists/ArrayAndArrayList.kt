@@ -8,8 +8,8 @@ package Turkcell.Lists
 
 fun main1() {
 
-    //eleman eklenmez array olduğu için
-    val dizi = intArrayOf(1,5,7,9,4)
+    //eleman eklenmez array olduğu için.size eklenimyor yani:4 size var 5. eklenmeye çalışıyor
+    val dizi = intArrayOf(1,5,7,9)
 
     val d1 =dizi[0]
 
