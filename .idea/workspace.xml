@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="classes">
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="visibility modifier">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/JavaDeneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/PropertyVsField.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/ClassConstructorInit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/ClassConstructorInit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/HighOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/HighOrder.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +56,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\src\main\kotlin\Kekod\Classes" />
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\JetBrainsAcademy\JetBrainsAcademyVariables" />
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\JetBrainsAcademy\JetBrainsAcademyFunction" />
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
@@ -187,7 +190,7 @@
       <workItem from="1691313826428" duration="25335000" />
       <workItem from="1691502272668" duration="3366000" />
       <workItem from="1691535052289" duration="2156000" />
-      <workItem from="1691575784077" duration="12413000" />
+      <workItem from="1691575784077" duration="21921000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -434,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691601297574</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="visibility modifier">
+      <created>1691607961523</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1691607961523</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Scanner.kt" />
     <MESSAGE value="course repetition" />
     <MESSAGE value="lesson 1 Andromeda Variable.kt" />
     <MESSAGE value="menu please 4" />
@@ -478,7 +487,8 @@
     <MESSAGE value="thread" />
     <MESSAGE value="high-order" />
     <MESSAGE value="classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes" />
+    <MESSAGE value="visibility modifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="visibility modifier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

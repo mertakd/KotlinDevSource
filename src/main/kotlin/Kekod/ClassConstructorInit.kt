@@ -20,7 +20,9 @@ package Kekod
  *
  *secondery constructor ları ne zaman overloading ediyordık?İçerisinde ki parametreler değişince. Bu şekilde  bazı parametreler zorunlu bazı parametreler opsinolken, secondery constructor lara ihtiyacak duyacağız
  *Zorunlu parametreler dışında opsiyonal parametreler varken business logic imiz değişmiyorsa, default parametre kullanmamızda bir sakınca yok.
- *Eğer içerde if case lerle ayırmıyorsak kodumuzu, budurmda bir tane constructor kullanıp default değerleri istediğimiz kadar kullanabiliriz.Ama if case lerle kullancaksak bu çirkin bir kod yapısı o yüzde constructorları override etmeliyiz. */
+ *Eğer içerde if case lerle ayırmıyorsak kodumuzu, budurmda bir tane constructor kullanıp default değerleri istediğimiz kadar kullanabiliriz.Ama if case lerle kullancaksak bu çirkin bir kod yapısı o yüzde constructorları override etmeliyiz.
+ *
+ * */
 
 
 
@@ -39,7 +41,13 @@ package Kekod
  * Public: heryerden erişilebilir.
  * Protected: miras alan kişiler, yani miras alan child classlar da(dede-baba-oğul  -> oğul miras sahibi child)  sadece kullanabilsin, ama clasın dışına çıkıldığında miras alan kişilerin dışında kullanılamasın diyorsak protected kullanılacak.
  * Protected kendisinde(yani bulunduğu class da) ve child class larda public gibi davranır, ama class ın ve child classların dışında private gibi davranır.
- * Internal: kendi içinde,child classlarda, benzer aynı modülün içerisinde her yerde public. Ama modlün dışında private olur.Kısaca modüller arasında public ve private lı olarak düzenliyor. Modül içerinde public, harici modüllerde private*/
+ * protected top level tanımlamalarda kullanılamıyor. child class ı olamayacağı için hata veriyor.
+ * Internal: kendi içinde,child classlarda, benzer aynı modülün içerisinde her yerde public. Ama modlün dışında private olur.Kısaca modüller arasında public ve private lı olarak düzenliyor. Modül içerinde public, harici modüllerde private
+ *
+ * ENCAPSULATION
+ * Mesela bir sınıfın içerisndeki verilere dışarıdan erişmek istemyorsak encapsulation kullanırız.
+ * misal bir fonksiyonun içinde ki iki değeri çağırdık değer atadık. daha sonra bu fonksiyona gelen iki değişkeni main de değiştirildi diyelim, bu yüzden hatalı işlemler oluşacak.
+ * Asıl yapılan işi göstermek istemediğimizde. mesela paralı bir kütüphanenin fonksiyonu private dır bunu gösteremeyiz. */
 
 
 open class Foo(){
