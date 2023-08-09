@@ -7,7 +7,8 @@ package Kekod
  *
  * değişkene atanan h.order
  * anaon func
- * recevier high order*/
+ * recevier high order
+ * ders14 25:00 :  class larda aşıdan yukarıya yani child dan ana class a veri taşırken ya interface ler ya da high-order lar ku7llanılıyor. */
 fun main() {
 
     //foo(::logPrint)
