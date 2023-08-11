@@ -44,6 +44,11 @@ sealed class'lar icerisinde sadece object tanimi yaparsaniz, bu kullanimin enumr
 -- Sadece opsiyonlari gormek istiyorsak, enum class kullanmaliyiz
 -- Grupladigi seyler sabitler
 
+ *** Özet: Sealed class lar enumların aksine class oldukları için, herhangi harici bir interface i implement edebilir, diğerinde bu interface i kullanmayabilirsiniz.
+     Dolayısıyla ikisi de aynı class hiyararşisine sahip olmakla beraber  farklı işler yapabilirler. aşağı kodda örneği var TeamsFonctionality interface olarak geliyor.
+     Enum da ise aynı veri grupları aynı işi yapacak şekilde gruplandırıyorduk.
+     Obje ile sealed class ı kullanmayı düşünüyorsanız, subclass ınız da olamayacaksa sealed class yazmanız gerekmiyor, enum class yazmak daha uygun
+
 
  */
 
