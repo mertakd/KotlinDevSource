@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="data class finished">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Exception/Exception.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/EnumClasses.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="enum">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/14_SealedClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/EnumClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/EnumClasses.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +190,8 @@
       <workItem from="1691502272668" duration="3366000" />
       <workItem from="1691535052289" duration="2156000" />
       <workItem from="1691575784077" duration="27915000" />
-      <workItem from="1691667950040" duration="6347000" />
+      <workItem from="1691667950040" duration="6941000" />
+      <workItem from="1691705329694" duration="5672000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -458,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691630848968</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="enum">
+      <created>1691698029512</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1691698029512</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="menu please 4" />
     <MESSAGE value="Andromeda Control Flow" />
     <MESSAGE value="Jumps and Returns" />
     <MESSAGE value="task" />
@@ -502,7 +509,8 @@
     <MESSAGE value="visibility modifier" />
     <MESSAGE value="propert vs field finished" />
     <MESSAGE value="data class finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="data class finished" />
+    <MESSAGE value="enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="enum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
