@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="sealed class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/15_NestedInnerClass.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="nesned and inner class finished">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Andromeda/Exeption.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/Nesned.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/NesnedAndInnerClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/deneme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/09_Inheritance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/14_SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/14_SealedClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Exception/Exception.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Exception/Exception.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/15_NestedInnerClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/15_NestedInnerClass.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +66,9 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.HighOrderKt">
-    <configuration name="ClassForThreadsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Thread.ClassForThreadsKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForLoopArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Arrays.ForLoopArraysKt" />
+  <component name="RunManager" selected="Kotlin.DenemeKt">
+    <configuration name="DenemeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.DenemeKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,15 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Collections.List.ListKt" />
+    <configuration name="NesnedAndInnerClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.NesnedAndInnerClassKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Arrays.StringsArraysKt" />
+    <configuration name="NesnedInnerClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeadFirstKotlin.NesnedInnerClassesKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NesnedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeadFirstKotlin.NesnedKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DenemeKt" />
+        <item itemvalue="Kotlin.NesnedAndInnerClassKt" />
+        <item itemvalue="Kotlin.NesnedKt" />
         <item itemvalue="Kotlin.HighOrderKt" />
-        <item itemvalue="Kotlin.ClassForThreadsKt" />
-        <item itemvalue="Kotlin.ListKt" />
-        <item itemvalue="Kotlin.ForLoopArraysKt" />
-        <item itemvalue="Kotlin.StringsArraysKt" />
+        <item itemvalue="Kotlin.NesnedInnerClassesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +197,16 @@
       <workItem from="1691575784077" duration="27915000" />
       <workItem from="1691667950040" duration="6941000" />
       <workItem from="1691705329694" duration="8092000" />
-      <workItem from="1691755188020" duration="6380000" />
+      <workItem from="1691755188020" duration="11070000" />
+      <workItem from="1691785366246" duration="1711000" />
+      <workItem from="1691845158487" duration="597000" />
+      <workItem from="1691859992668" duration="660000" />
+      <workItem from="1691861153628" duration="2704000" />
+      <workItem from="1691874320212" duration="6604000" />
+      <workItem from="1691884999556" duration="705000" />
+      <workItem from="1691887423565" duration="702000" />
+      <workItem from="1691888145096" duration="296000" />
+      <workItem from="1691888455835" duration="16388000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -474,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691716156492</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="nesned and inner class finished">
+      <created>1691763275883</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1691763275883</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Jumps and Returns" />
     <MESSAGE value="task" />
     <MESSAGE value="andromeda" />
     <MESSAGE value="head first kotlin added" />
@@ -518,7 +538,8 @@
     <MESSAGE value="data class finished" />
     <MESSAGE value="enum" />
     <MESSAGE value="sealed class" />
-    <option name="LAST_COMMIT_MESSAGE" value="sealed class" />
+    <MESSAGE value="nesned and inner class finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="nesned and inner class finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

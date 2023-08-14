@@ -32,7 +32,7 @@ Nested class'lar static olarak sanklanirlar. Bundan dolayi da outer class uzerin
                       bundan dolayi inner class outer class'in tum elemanlarina ulasabilir, private olsa dahi.
 
 ***Nesned Class lar neden üst class a erişmez? Nesned ve Inner Class arasında fark nedir?
---- memory leak:  static keyword u memory den kendimiz silmiyorsak, nesnesini uygulama ayakta olduğu sürece tutan veriler. Yani kullanılsa da kullanılmasa da memory de kalıyor.
+--- memory leak(1:21:00):  static keyword u memory den kendimiz silmiyorsak, nesnesini uygulama ayakta olduğu sürece tutan veriler. Yani kullanılsa da kullanılmasa da memory de kalıyor.
     normalde bir ddeğişken oluşturduğumuzda bir class içinde, o class da işimiz var ken o değişken memory de tutulur.O class dan çıktıysak o class ı artık kullanmıyorsak garbage collection kullanılmayan verileri memory den temizler.
     statik bir şey yazınca garbage buna tokunmuyor.uygulama ayakta olduğu sürece silinmiyor. uygulama kapanırsa her türlü sattik olsa da silinir.
     Inner class da nesne oluşturup dış class outer a ulaşabiliyoruz. nesned class da da aynı durum olduğunu farz edelim o zaman outer class ının da memory den silinmemesine neden olacaktı.yani parazit gibi düşün nesned öldürelemiyor, outer a da tutunuyor onun da öldürülmesine izin vermiyor.
