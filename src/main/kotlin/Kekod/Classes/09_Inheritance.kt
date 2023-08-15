@@ -1,9 +1,42 @@
 package Kekod.Classes
 
 /**
- *
+ *1.25.00
  *                  Inheritance
  *
+ * Miras aldığım sınıfın tüm özelliklerine sahibim. Neden bu şekilde sahip olmak istiyoruz.
+ * Üst class lar sahip oldukları her şeyi alt class lara iletirler.
+ * Miras almada bazen tüm özelliklerini kullanmak isteriz. Bazen o özelliklerle beraber extra yetkinlikleri olan başka bir versiyonunu istersiniz.Update li versiyonu gibid düşünelim.
+ * Bir child class varsa, üst class dan daha fazla beceri setine sahiptir. aile örneği 1:33
+ * 1.Miras almamızın birinci nedeni üst sınıfın özelikleriyle beraber kendi özelliklerimiz olsun. Biz üst class dan daha fazla şey yapabililelim.
+   2.İkinci amacımız üst class ımız da yaptığımız beceri setini, yeni bir beceri setini eklememek isteyebiliriz.
+   Mesela üst class ımızı on tane yerde kullanıryoruzdur, 11. yerde yeni bir yetkinliğe ihtiyacımız vardır.Ama sadece 11.yerde ihtiyacımız var.
+   Bu on birimin kullanıldığı yerlerde extra hiç kullanılmayacak bir yetkinlik, bir fonksiyon eklemektense, bir child class oluşturup o eklenecek olan bir tane fazladan fonksiyonu 11. yerde kullanacağımız child class a veririz.
+   Bu sayede geride kalan on tane ekran bu fazladan fonksiyonu kullanmak zorunda kalmazlar.
+   child class lar daha fazla işlevi olduğu için memory de fazladan yer kaplar sistemi daha fazla yorar. Bu yüzden bu şekilde yönetmek daha uygundur.
+   bu sayede üst class ın performansı da etkilenmez. yani memory de fazladan yer kaplamaz.
+   özet- 1.39:00
+   3.Bazen üst class ın sahip olduğu yetkinlikleri, child class larla değiştirmek isteyeceğiz.
+     bir şablonumuz var ama bazı özellikleri child classlaarımda değştirebileyim, anlamı değişşin. Buna overload işlemi dicez.
+
+ * Uygulama da kullanımı
+ * Java da extends kullanarak yapıyoruz
+ * Java da tüm class lar zaten open.Yani zaten miras alınabilir durumda.
+ * Kolin de default olarak final durumda, yani final miras alınamaz demek.
+ * Bu yüzden kotlin class ını miras alınabilir duruma getirmek için open keyword ünü kullanmamız gerekiyor. open ve final erişim düzenleyicileri olarak geçer.
+ * Kotlinin yaptığı daha iyi open keyword ü grdüğümzde miras olayı gerçekleştiğini görebiliyoruz ama java da hepsi miras alınabilir durumda gözülküyor.
+ * Kotlin de miras alma : iki nokta ile belirtiliyor java da ise extends ile.
+ * extend edilen sınafa en bir tane parametre vermemiz gerekiyor
+ * üst class da private olan bir değer, child class dan erişilemez.protected da erişiyor.
+ * üst class da open olarak işaretlenmiş değişken ya da fonksiyon, child class da çağırıldığında override ediliyor.
+ * override: eğer child class da bir değişken ya da fonksiyon override olmuşsa, şunu diyoruz. Üst sınıfta bu fonksiyonun bir görevi vardı, child class da override ederek mevcut yaptığı işi değiştirebiliyoruz, yani bu fonksiyonun anlamı artık farklı olacak demiş oluyoruz.buna polimorfism de deniliyor.
+ * Polimorfizm(çok biçimlilik) : Üst class da ki bir fonksiyonu ya da değişkeni, ovverride ederek, child class larda, anlamını görevini değiştirerek, yeni bir anlam yeni bir görev tanımlamaya polimorfizm dicez.
+ * super: super keyword ü üst class da ki fonksiyonu işaret ediyor.
+   override ın iki türlü kullanımı olabilir: üst class ın halihazır da yaptığı şeyi yap, devamında benim istediğim şeyi de yap
+   Bu durumda super i kullanırsa üst class ın yaptığı işlemin aynısı yapabilmemiz için super yazıdğımız da üst class ın fonksiyonunu çağırmış oluruz.
+   üst class ın yaptığını değil de kendiniz işlev kazandımak istiyorsanız super i kaldırırız.
+ * üst sınıf child sınıfa bir fonksiyonu override etmek istemiyorsa, final override fun drawShape() yapabilir.
+ * iki class ile inheritance yapılamaz.
  */
 
 
@@ -13,11 +46,22 @@ package Kekod.Classes
 
 Ozetle bir parent class'in ozelliklerini (fonksiyon ya da degisken) alt siniflara (child class) aktarmaya denir.
 
-Erisim duzenleyiciler;
+*Visibility Modifier(görünüm düzenleyiciler)
+ public, private, protected, internal.
+
+
+*Erisim(access modifier) duzenleyiciler;
 open --> miras alinacak sinifin open olmasi gerekiyor. ( Javada tum siniflar zaten open )
 final --> Kotlin'de default olarak siniflar final, yani miras alinamaz.
-internal --> Yalnizca alt siniflarin erisebildigi tip
 
+ovverride ve overloading farklı !
+overload : Bir fonksiyonun birebir aynısının parametreleri farklı, farklı sayıda parametre, parametre tipleri farklıyken, geri dönüş tipi farklıyken yazma olayına fonksiyon overloading diyorduk.
+
+
+* Miras aldığımız class ın constructor larından birini belirmemiz gerekiyor. Bu primary ve secondery constructorlardan birini mutlaka belirtmemiz gerekiyor.
+
+*super üst sınıfa
+ this bulunduğu sınıfa işaret eder.
 
 
  */
