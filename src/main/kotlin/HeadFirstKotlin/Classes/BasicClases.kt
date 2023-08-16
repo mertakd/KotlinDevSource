@@ -43,10 +43,19 @@ package HeadFirstKotlin.Classes
  * Bir özelliği basit bir ifadeden daha karmaşık bir şeye başlatmanız gerekiyorsa veya her nesne oluşturulduğunda çalıştırmak istediğiniz fazladan kod varsa, bir veya daha fazla başlatıcı bloğu kullanabilirsiniz
  * Başlatıcı blokları, nesne başlatıldığında, yapıcı çağrıldıktan hemen sonra yürütülür ve önlerine init anahtar sözcüğü eklenir. Aşağıda, bir Dog nesnesi başlatıldığında bir mesaj yazdıran bir başlatıcı bloğu örneği verilmiştir
  * Bu aynı zamanda bir sınıfta tanımladığınız tüm özellikler için de geçerlidir: özellikleri kullanmaya çalışmadan önce başlatmanız gerekir.
+ *
+ *
+ * GETTER SETTER
+ * Bir özelliğin dönüş değerini değiştirmek veya bir özelliğe atanmadan önce bir değeri doğrulamak istiyorsanız, kendi alıcılarınızı ve ayarlayıcılarınızı yazabilirsiniz.
+ * Alıcılar ve ayarlayıcılar, özellik değerlerini almanızı ve ayarlamanızı sağlar. Bir alıcının hayattaki tek amacı, belirli bir alıcının alması gereken değer her ne ise, bir dönüş değeri geri göndermektir. Ve bir ayarlayıcı, bir bağımsız değişken değeri alma ve onu bir özelliğin değerini ayarlamak için kullanma şansı için yaşar ve nefes alır.
+ *
+ * Köpeğin ağırlığını kilogram cinsinden döndürmek için özel bir getter
+ * Biz atamadan önce Köpeğin ağırlığı için önerilen bir değeri doğrulamak için özel bir setter.
  * */
 
 
 
+/*
 
 
 class Dog(val name:String, var weight:Int, breed_param:String){
@@ -58,16 +67,41 @@ class Dog(val name:String, var weight:Int, breed_param:String){
     val activities = arrayOf("Walks")
 
     val breed = breed_param.uppercase()
+
+
+    val weightInKgs:Double
+        get() = weight / 2.2
+}
+
+
+class Dog2(val name:String, weight_param:Int, breed_param:String){
+
+
+    val breed = breed_param.uppercase()
+
+
+    var weight = weight_param
+        set(value) {
+            if (value > 0) field = value
+        }
 }
 
 
 fun main() {
 
+    println("my dog 2")
+    var myDog2 =Dog2("Keko",70,"mix")
+    myDog2.weight = -1
+    println(myDog2.weight)
 
+
+    println("my dog")
     var myDog = Dog("Fido", 70, "Mixed")
     println(myDog.name)
-    myDog.weight = 75
+    //myDog.weight = 75
     myDog.bark()
+
+    println( myDog.weightInKgs)
 
 
     var dogs = arrayOf(Dog("Fido",70, "Mixed"),  Dog("Ripper",10,"Poodle"))
@@ -78,9 +112,12 @@ fun main() {
     println("My Array Dog")
     var myArrayDog = Dog("vahsi",30,"super cins")
 
-    println( myArrayDog.activities[0])
+
     println(myArrayDog.name)
     println(myArrayDog.breed)
+
+    println("${myArrayDog.name}, cinsi de ${myArrayDog.breed} ${myArrayDog.activities[0]}")
+
 }
 
 
@@ -106,3 +143,52 @@ fun main1() {
     songTwo.stop()
     songThree.play()
 }
+*/
+
+
+class Dog(val name: String,
+          weight_param: Int,
+          breed_param: String) {
+
+    init {
+        print("Dog $name has been created. ")
+    }
+
+    var activities = arrayOf("Walks")
+
+    val breed = breed_param.uppercase()
+
+    init {
+        println("The breed is $breed.")
+    }
+
+    var weight = weight_param
+        set(value) {
+            if (value > 0) field = value
+        }
+
+    val weightInKgs: Double
+        get() = weight / 2.2
+
+
+    fun bark() {
+        println(if (weight < 20) "Yip!" else "Woof!")
+    }
+}
+fun main() {
+    val myDog = Dog("Fido", 70, "Mixed")
+    myDog.bark()
+    myDog.weight = 75
+    println("Weight in Kgs is ${myDog.weightInKgs}")
+    myDog.weight = -2
+    println("Weight is ${myDog.weight}")
+    myDog.activities = arrayOf("Walks", "Fetching balls", "Frisbee")
+    for (item in myDog.activities) {
+        println("My dog enjoys $item")
+    }
+    val dogs = arrayOf(Dog("Kelpie", 20, "Westie"), Dog("Ripper", 10, "Poodle"))
+    dogs[1].bark()
+    dogs[1].weight = 15
+    println("Weight for ${dogs[1].name} is ${dogs[1].weight}")
+}
+

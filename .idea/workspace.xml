@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="property vs field">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/Classes/BasicClases.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="basic class first head kotlin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/PropertyVsField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/PropertyVsField.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/Classes/BasicClases.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/Classes/BasicClases.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,7 @@
       <workItem from="1691888455835" duration="16388000" />
       <workItem from="1692041076626" duration="12831000" />
       <workItem from="1692108170199" duration="9009000" />
-      <workItem from="1692197402943" duration="12243000" />
+      <workItem from="1692197402943" duration="15845000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -514,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692206740999</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="basic class first head kotlin">
+      <created>1692218573100</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1692218573100</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="FunctionalDecomposition.kt" />
     <MESSAGE value="RecursionFunctions.kt" />
     <MESSAGE value="bayram" />
     <MESSAGE value="lambda expression jetbrains" />
@@ -558,7 +563,8 @@
     <MESSAGE value="nesned class" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="property vs field" />
-    <option name="LAST_COMMIT_MESSAGE" value="property vs field" />
+    <MESSAGE value="basic class first head kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic class first head kotlin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
