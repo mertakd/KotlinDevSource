@@ -7,10 +7,19 @@ package Kekod.Classes
  *
  *                  ABSTRACT CLASSES
  *
+ * Abstract class lar bir şözleşmedir.
+   Sözleşmede bir buzdolabının olacağını söylüyor, ama buz dolabını vermiyor.
+   Bu yüzden değişkenlere ilk atamasını ve fonksiyonlara body sini vermiyoruz abstract oldukları için.
+ *
+ * Abstract class sözleşme, metin. Dolasıyla child class larda yapılması zorunlu olmasını istediğim şeyleri, abstract class lar da topluyoruz.
+   Bu sayede child class larda daha az kod yazarak, daha fazla iş yapabilmemi sağlıyor. boilerplate codlardan bizi kurtarıyor.
+
  * abstract val fridge: Fridge  ->  Bizden bir değer istemiyor. Yani memory de fiziksel olarak ne tutulacağını söylememizi istemedi. Kendimiz istesek bile değer ataması yapamıyoruz.
    abstract soyut bir kavram olduğu için burada bir buz dolabı olacak diyor, aama buz dolabı şuan ortada yok, bunu sen alacaksın diyor.
 
  * abstract fun clean(clock: Int) ->
+ *
+ * abs tract class da normal bir değişken yada fonksiyon kullanmamalıyız. hatta open fonksiyon bile kullanamamalıyız.
  */
 
 
@@ -45,10 +54,10 @@ bize neyin olmasi gerektigini soyleyecek.
 -absract class bir sablon oldugu icin, final yapilamaz. Mantiken hatali, neden bu sozlesmeyi, sablonu olusturuyoruz o zaman?
 
 -bir abstract class, baska bir abs. class override ederse ya da miras alirsa ederse; diger fonksiyonları override edebilir ya da etmeyebiliriz, visilbiity modifier a kalmis
-fonksiyon da degisken de override edilebiliyor istenirse.
+fonksiyon da degisken de override edilebiliyor istenirse. Ayrıca istediği fonksiyonu yada değişkeni ovveride edebilir. Hepsini ovverride etmesine gerek yok, abstract-abstract ı miras alıyorsa.
 abstract ve open keyword'leri bu nedenle benziyor
 
-
+- üst sınıf ve child sınıf abstract ise, child sınıfta üst sınıfın değişkenini override etmeden de çağırabiliyoruz.
 
 
 -absract class normal bir class tarafindan miras alinamaz degil, alinir ancak;

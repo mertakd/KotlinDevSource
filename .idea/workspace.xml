@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="nesned class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/10_AbstractClasses.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="inheritance">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/11_Interfaces.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/09_Inheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/09_Inheritance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/10_AbstractClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/10_AbstractClasses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/JavaDeneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/JavaDeneme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/PropertyVsField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/PropertyVsField.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +204,9 @@
       <workItem from="1691887423565" duration="702000" />
       <workItem from="1691888145096" duration="296000" />
       <workItem from="1691888455835" duration="16388000" />
-      <workItem from="1692041076626" duration="12067000" />
+      <workItem from="1692041076626" duration="12831000" />
+      <workItem from="1692108170199" duration="9009000" />
+      <workItem from="1692197402943" duration="3351000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -498,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692041140596</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="inheritance">
+      <created>1692065050815</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692065050816</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="andromeda" />
     <MESSAGE value="head first kotlin added" />
     <MESSAGE value="FunctionalDecomposition.kt" />
     <MESSAGE value="RecursionFunctions.kt" />
@@ -542,7 +552,8 @@
     <MESSAGE value="sealed class" />
     <MESSAGE value="nesned and inner class finished" />
     <MESSAGE value="nesned class" />
-    <option name="LAST_COMMIT_MESSAGE" value="nesned class" />
+    <MESSAGE value="inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

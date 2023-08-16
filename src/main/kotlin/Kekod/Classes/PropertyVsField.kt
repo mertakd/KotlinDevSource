@@ -2,7 +2,12 @@ package Kekod.Classes
 
 /**
  * Kotlin de field lar yok property ler var.
- * Property bir değişkenin get ve set fonksiyonları
+ * Property bir değişkenin get ve set fonksiyonlarıdır
+ * Public değişkende get ve set fonksiyonları üretilir. Bu property si yani özellikleri oluyor.
+ * Private değişken de get ve set fonksiyonları olmuyor.
+ * değişken public yada private olsada arka tarafta hep private. Bu yüzden kotlin de encapsulation u istesek de aşamıyoruz.
+ *
+ *
  * Java daki kullanım: bir değişken field dır, variable dır.Bu değişkenin getter ve setter ları bu değişkene erişen property lerdir.Ya da bu değişkenin property leridir(özellikleridir.).
  * Bizim kotlinde değişken olarak tanımladığımız şey aslında bir property
  *
@@ -25,6 +30,9 @@ package Kekod.Classes
  * Backing Field: arka planda, yani kotlin kodunun java tarafında ki field lara denir. BU örnekde private tanımlanan balanaca ve dept fiel ı.
  * Extension fonksiyonda exten edilen şey variable değil fonksiyon ondan adı extension function, extension valu değil.
  *ders 16: dk 25:00
+ *
+ *
+ * Encapsulation: Bir değişkeni private da tutup ona erişecek get ve set fonksiyonlaarını public de yazma olayıydı. Yani kodun belli bir kısmını kapsülleme.
  **/
 
 
@@ -32,6 +40,7 @@ class BankAccount{
     public var balance = 1_000_000
         set(value) {
             field = value // field = backing field
+            //set de, get fonksiyonundan dönen değeri vermiş oluyoruz.Yani bu değişken set lenmiyor.
         }
 
 
