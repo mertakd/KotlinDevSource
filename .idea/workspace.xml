@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="inheritance">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/11_Interfaces.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="property vs field">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/Classes/BasicClases.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/10_AbstractClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/10_AbstractClasses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/JavaDeneme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/JavaDeneme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/PropertyVsField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/PropertyVsField.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,14 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DenemeKt">
+  <component name="RunManager" selected="Kotlin.BasicClasesKt">
+    <configuration name="BasicClasesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeadFirstKotlin.Classes.BasicClasesKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DenemeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.DenemeKt" />
       <module name="KotlinDevSource" />
@@ -85,13 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NesnedInnerClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeadFirstKotlin.NesnedInnerClassesKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NesnedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeadFirstKotlin.NesnedKt" />
       <module name="KotlinDevSource" />
@@ -101,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BasicClasesKt" />
         <item itemvalue="Kotlin.DenemeKt" />
         <item itemvalue="Kotlin.NesnedAndInnerClassKt" />
         <item itemvalue="Kotlin.NesnedKt" />
         <item itemvalue="Kotlin.HighOrderKt" />
-        <item itemvalue="Kotlin.NesnedInnerClassesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +204,7 @@
       <workItem from="1691888455835" duration="16388000" />
       <workItem from="1692041076626" duration="12831000" />
       <workItem from="1692108170199" duration="9009000" />
-      <workItem from="1692197402943" duration="3351000" />
+      <workItem from="1692197402943" duration="12243000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -509,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692065050816</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="property vs field">
+      <created>1692206740999</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1692206740999</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="head first kotlin added" />
     <MESSAGE value="FunctionalDecomposition.kt" />
     <MESSAGE value="RecursionFunctions.kt" />
     <MESSAGE value="bayram" />
@@ -553,7 +557,8 @@
     <MESSAGE value="nesned and inner class finished" />
     <MESSAGE value="nesned class" />
     <MESSAGE value="inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance" />
+    <MESSAGE value="property vs field" />
+    <option name="LAST_COMMIT_MESSAGE" value="property vs field" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -33,6 +33,12 @@ package Kekod.Classes
  *
  *
  * Encapsulation: Bir değişkeni private da tutup ona erişecek get ve set fonksiyonlaarını public de yazma olayıydı. Yani kodun belli bir kısmını kapsülleme.
+ *
+ *
+ * ders 16: 1:03:00 -> mutablelivedata verileri backend den alıyor, fragment da live data ekranda gösteriyor.
+   mutablelivedata da iki bin lik liste var diyelim. live data nın get ine mutablelive data yı verdiğimiz de memory de iki kat yer kaplamıyor.
+
+
  **/
 
 
@@ -54,3 +60,5 @@ fun main() {
     bankAccount.balance = 500_000
     println(bankAccount.balance)
 }
+
+
