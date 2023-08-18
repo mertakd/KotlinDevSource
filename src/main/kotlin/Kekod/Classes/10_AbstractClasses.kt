@@ -6,6 +6,11 @@ package Kekod.Classes
 /**
  *
  *                  ABSTRACT CLASSES
+ * kendisne sonradan davranış kazandırma
+ * davranış kazandıran bilen state tutan
+ * instance edilememz kalıtım alabilirler
+ * object sonraki ders
+ * eylül 13 sınav 15inde android başlıyor
  *
  * Abstract class lar bir şözleşmedir.
    Sözleşmede bir buzdolabının olacağını söylüyor, ama buz dolabını vermiyor.
