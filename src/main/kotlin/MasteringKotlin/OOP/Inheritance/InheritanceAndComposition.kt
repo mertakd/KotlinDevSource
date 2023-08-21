@@ -110,3 +110,22 @@ class Player6 : Movable, Drawable {
     }
 }
 // hem Movable hem de Drawable bir update() yöntemi tanımlasa da, bunun yalnızca bir kez geçersiz kılınması gerektiğini göreceğiz:
+
+
+
+
+
+
+
+//DEFAULT METHODS
+
+interface GameObject5 {
+    val id: String
+        get() = "defaultId"
+    fun update(currentTime: Long){
+        println("id: $id update:")
+    }
+}
+
+
+
