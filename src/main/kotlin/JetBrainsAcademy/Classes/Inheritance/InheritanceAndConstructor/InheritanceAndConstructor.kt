@@ -5,6 +5,12 @@ package JetBrainsAcademy.Classes.Inheritance.InheritanceAndConstructor
  * */
 
 //1.Inheritance and primary constructor
+
+//Temel sınıfın yapıcı parametreleri varsa, türetilmiş sınıfın bunlarla ilgilenmesi gerekir.
+//Temel sınıf düzgün şekilde başlatılmamışsa Kotlin bir programın derlenmesine izin vermez. Aşağıdaki örnekler, birincil kurucu aracılığıyla temel sınıf başlatmanın bazı durumlarını göstermektedir.
+//Diğer tüm parametreler yeni özellikler değildir ve temel sınıf Book'un ilgili özelliklerini başlatmak için kullanılırlar.
+//NoInfoBook sınıfı, temel sınıfı başlatmak için kullanılan yalnızca 2 parametreye sahiptir.
+
 open class Book1
 
 class Fiction1 : Book1()
@@ -30,3 +36,4 @@ class FictionBook(title: String, author: String = "Unknown",
 
 
 // 2.Inheritance and secondary constructor
+
