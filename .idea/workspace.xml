@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="inheritance jetbrains">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Constructor/SecondaryConstructor/deneme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/PropertyAccessors/PropertyAccessors.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="secondery constructor">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Interfaces/Interface Inheritance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Interfaces/IntroductionToInterfaces.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OverridingFunctions/OverridingFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OverridingFunctions/OverridingFunctionsQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Constructor/SecondaryConstructor/SecondaryConstructorQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Constructor/SecondaryConstructor/SecondaryConstructorQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Inheritance/InheritanceAndConstructor/InheritanceAndConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Inheritance/InheritanceAndConstructor/InheritanceAndConstructor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DenemeKt">
+  <component name="RunManager" selected="Kotlin.Interface_InheritanceKt">
     <configuration name="DenemeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Constructor.SecondaryConstructor.DenemeKt" />
       <module name="KotlinDevSource" />
@@ -71,29 +72,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Inheritance.InheritanceQuizKt" />
+    <configuration name="InheritanceAndConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Inheritance.InheritanceAndConstructor.InheritanceAndConstructorKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertyAccessorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.PropertyAccessors.PropertyAccessorsKt" />
+    <configuration name="Interface_InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Interfaces.Interface_InheritanceKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Constructor.SecondaryConstructor.SecondaryConstructorKt" />
+    <configuration name="OverridingFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.OverridingFunctions.OverridingFunctionsKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondaryConstructorQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Constructor.SecondaryConstructor.SecondaryConstructorQuizKt" />
+    <configuration name="OverridingFunctionsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.OverridingFunctions.OverridingFunctionsQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Interface_InheritanceKt" />
+        <item itemvalue="Kotlin.OverridingFunctionsQuizKt" />
+        <item itemvalue="Kotlin.OverridingFunctionsKt" />
+        <item itemvalue="Kotlin.InheritanceAndConstructorKt" />
         <item itemvalue="Kotlin.DenemeKt" />
-        <item itemvalue="Kotlin.PropertyAccessorsKt" />
-        <item itemvalue="Kotlin.SecondaryConstructorQuizKt" />
-        <item itemvalue="Kotlin.SecondaryConstructorKt" />
-        <item itemvalue="Kotlin.InheritanceQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +221,7 @@
       <workItem from="1692580309362" duration="703000" />
       <workItem from="1692581360636" duration="145000" />
       <workItem from="1692639008655" duration="16181000" />
-      <workItem from="1692725372519" duration="6420000" />
+      <workItem from="1692725372519" duration="15408000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -558,15 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00049" summary="inheritance jetbrains">
+    <task id="LOCAL-00050" summary="secondery constructor">
       <option name="closed" value="true" />
-      <created>1692654282324</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
+      <created>1692735516948</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1692654282324</updated>
+      <updated>1692735516949</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +586,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Coffee1.kt&#10;Coffee2.kt" />
     <MESSAGE value="repeat mutable list" />
     <MESSAGE value="repeat" />
     <MESSAGE value="repeat 3.08" />
@@ -610,7 +610,8 @@
     <MESSAGE value="abstract" />
     <MESSAGE value="mastering classes" />
     <MESSAGE value="inheritance jetbrains" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance jetbrains" />
+    <MESSAGE value="secondery constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="secondery constructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
