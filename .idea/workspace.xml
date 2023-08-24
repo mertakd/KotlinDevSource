@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="inheritance and interface">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/DataClass/DataClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/DataClass/DataClassQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/DataClass/ToString/ToString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/DataClass/deneme.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="to string method">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/DataClass/DestructuringDeclarations/DestructuringDeclarations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/DataClass/HashCode/HashCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/ExtensionFunction/ExtensionFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/ExtensionFunction/ExtensionFunctionQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/InfixFunctions/InfixFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Pair/Pair.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/16_InlineClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,14 +66,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ToStringKt">
-    <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.DataClass.DataClassKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.PairKt">
     <configuration name="DataClassQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.DataClass.DataClassQuizKt" />
       <module name="KotlinDevSource" />
@@ -78,15 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interface_InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Interfaces.Interface_InheritanceKt" />
+    <configuration name="ExtensionFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.ExtensionFunction.ExtensionFunctionKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingFunctionsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.OverridingFunctions.OverridingFunctionsQuizKt" />
+    <configuration name="InfixFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.InfixFunctions.InfixFunctionKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PairKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Pair.PairKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PairKt" />
+        <item itemvalue="Kotlin.InfixFunctionKt" />
+        <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin.ToStringKt" />
         <item itemvalue="Kotlin.DataClassQuizKt" />
-        <item itemvalue="Kotlin.DataClassKt" />
-        <item itemvalue="Kotlin.Interface_InheritanceKt" />
-        <item itemvalue="Kotlin.OverridingFunctionsQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +224,9 @@
       <workItem from="1692581360636" duration="145000" />
       <workItem from="1692639008655" duration="16181000" />
       <workItem from="1692725372519" duration="16133000" />
-      <workItem from="1692810524671" duration="6252000" />
+      <workItem from="1692810524671" duration="6509000" />
+      <workItem from="1692827960085" duration="1000" />
+      <workItem from="1692830043006" duration="13012000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -559,15 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00051" summary="inheritance and interface">
+    <task id="LOCAL-00052" summary="to string method">
       <option name="closed" value="true" />
-      <created>1692763184640</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
+      <created>1692817130195</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1692763184640</updated>
+      <updated>1692817130195</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +591,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="repeat" />
     <MESSAGE value="repeat 3.08" />
     <MESSAGE value="repeat scope function" />
     <MESSAGE value="arrays" />
@@ -611,7 +615,8 @@
     <MESSAGE value="inheritance jetbrains" />
     <MESSAGE value="secondery constructor" />
     <MESSAGE value="inheritance and interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance and interface" />
+    <MESSAGE value="to string method" />
+    <option name="LAST_COMMIT_MESSAGE" value="to string method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
