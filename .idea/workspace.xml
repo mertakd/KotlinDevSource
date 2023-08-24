@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="to string method">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/DataClass/DestructuringDeclarations/DestructuringDeclarations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/DataClass/HashCode/HashCode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/ExtensionFunction/ExtensionFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/ExtensionFunction/ExtensionFunctionQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/InfixFunctions/InfixFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Pair/Pair.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/16_InlineClass.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="inline class">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/17_TypeAlias.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/18_Object-Singleton.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/16_InlineClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/16_InlineClass.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -227,6 +223,7 @@
       <workItem from="1692810524671" duration="6509000" />
       <workItem from="1692827960085" duration="1000" />
       <workItem from="1692830043006" duration="13012000" />
+      <workItem from="1692907680145" duration="8746000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -564,15 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00052" summary="to string method">
+    <task id="LOCAL-00053" summary="inline class">
       <option name="closed" value="true" />
-      <created>1692817130195</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
+      <created>1692910588940</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1692817130195</updated>
+      <updated>1692910588941</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="repeat 3.08" />
     <MESSAGE value="repeat scope function" />
     <MESSAGE value="arrays" />
     <MESSAGE value="for loop arrays" />
@@ -616,7 +612,8 @@
     <MESSAGE value="secondery constructor" />
     <MESSAGE value="inheritance and interface" />
     <MESSAGE value="to string method" />
-    <option name="LAST_COMMIT_MESSAGE" value="to string method" />
+    <MESSAGE value="inline class" />
+    <option name="LAST_COMMIT_MESSAGE" value="inline class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,7 +6,10 @@ package Kekod.Classes
  *
  * backing field olması memory de yer tutması manasına geliyordu
  * inline ya da value class lar
- *
+ * box ve unbox değişkenler var. class ın objesi olarakk tutulan değişkeen, yani referans tipli değişken, bu memory de yer tutuyor. Bir de primitive olarak tutulan değişkenler var.
+ * primitive değişkenlerin maliyeti her dilde düşüktür, referns tipli değişkenler göre
+ * constructor ında sadece bir parametre alabiliyoruz.
+ * primity tipde davranacağı için çokd daha az yer kaplar, erişme maliyeti de düşük olacak
  */
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -27,7 +30,7 @@ value class BankAccount3(val balance: Int) : Print {              // value class
     }
 
 
-//  val accountNumber: Long = 12345123          // value class sadece 1 degisken ile kullanilabiliyor (su an icin), yeni degisken tanimlanamiyor
+//  val accountNumber: Long = 12345123          // value class sadece 1 degisken ile kullanilabiliyor (su an icin), yeni degisken tanimlanamiyor.  //property ye bir atama yaparsak arka planda bir backing field ı oluşturuluyordu.Bundan dolayı memory de gerçek bir yer harcanıyordu. Eğer bu değişkenin backing field ı olursa ikinci bir değişken tanımlamış oluyoruz.
 
     val accountNumber: Long
         get() {
@@ -71,6 +74,8 @@ Inline class'lar herhangi bir interface'i implement edebilirler, bir baska class
 inline class'lar miras alinamaz. Cunku default olarak final'lardir ve degistirilemezler
 Open keyword'uyle birlikte kullanilamaz. Final keyword'u vermek de dedundant uyarisi verir
 abstract, sealed keyword'u ile de kullanilamaz
+
+parametre kullanırken dikkat nesneye dönüşebilir
 
 
 _____OZETLE_____
