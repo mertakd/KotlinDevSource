@@ -27,7 +27,7 @@ Her ekranda, kullanimda yeni bir nesne olusturmak istemeyiz.
 
 Teknik Açıklama
 * static olan değişken ya da sınıfa garbage colector silmiyor.yani static olan field lara dokunmuyor diğer field ları temizliyor.
-  bu sayde herhangi bir T anında o class ın nesnesine ihtiyaç duyduğumuz da, zaten memory de bir kez yaratıldıysa, ikincisini yaratmadan garbage collector un silemediği o objeyi geri döndürüyoruz.
+  bu sayde herhangi bir zaman da(T anında) o class ın nesnesine ihtiyaç duyduğumuz da, zaten memory de bir kez yaratıldıysa, ikincisini yaratmadan garbage collector un silemediği o objeyi geri döndürüyoruz.
 
 
 2) Singleton pattern'in eksileri nedir?
