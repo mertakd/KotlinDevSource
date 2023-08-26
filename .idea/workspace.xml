@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="singleton">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/19_Object-Expression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/20_CompanionObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/21_Delegated-Properties.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="delegate properties">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Delegate/Observable/Observable.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/18_Object-Singleton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/18_Object-Singleton.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +60,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PairKt">
-    <configuration name="DataClassQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.DataClass.DataClassQuizKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ObservableKt">
     <configuration name="ExtensionFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.ExtensionFunction.ExtensionFunctionKt" />
       <module name="KotlinDevSource" />
@@ -80,6 +70,13 @@
     </configuration>
     <configuration name="InfixFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.InfixFunctions.InfixFunctionKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObservableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Delegate.Observable.ObservableKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ObservableKt" />
         <item itemvalue="Kotlin.PairKt" />
         <item itemvalue="Kotlin.InfixFunctionKt" />
         <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin.ToStringKt" />
-        <item itemvalue="Kotlin.DataClassQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +221,9 @@
       <workItem from="1692810524671" duration="6509000" />
       <workItem from="1692827960085" duration="1000" />
       <workItem from="1692830043006" duration="13012000" />
-      <workItem from="1692907680145" duration="20720000" />
+      <workItem from="1692907680145" duration="21573000" />
+      <workItem from="1692955718249" duration="726000" />
+      <workItem from="1693005566501" duration="6151000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -562,15 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00054" summary="singleton">
+    <task id="LOCAL-00055" summary="delegate properties">
       <option name="closed" value="true" />
-      <created>1692920568147</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
+      <created>1692944715851</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1692920568148</updated>
+      <updated>1692944715852</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="arrays" />
     <MESSAGE value="for loop arrays" />
     <MESSAGE value="collection list" />
     <MESSAGE value="thread" />
@@ -614,7 +612,8 @@
     <MESSAGE value="to string method" />
     <MESSAGE value="inline class" />
     <MESSAGE value="singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="singleton" />
+    <MESSAGE value="delegate properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="delegate properties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
