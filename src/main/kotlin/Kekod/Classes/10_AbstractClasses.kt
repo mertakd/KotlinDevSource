@@ -7,7 +7,7 @@ package Kekod.Classes
  *
  *                  ABSTRACT CLASSES
  * kendisne sonradan davranış kazandırma
- * davranış kazandıran bilen state tutan
+ * davranış kazandırabilen state tutan
  * instance edilememz kalıtım alabilirler
  * object sonraki ders
  * eylül 13 sınav 15inde android başlıyor
@@ -24,7 +24,7 @@ package Kekod.Classes
 
  * abstract fun clean(clock: Int) ->
  *
- * abs tract class da normal bir değişken yada fonksiyon kullanmamalıyız. hatta open fonksiyon bile kullanamamalıyız.
+ * abstract class da normal bir değişken yada fonksiyon kullanmamalıyız. hatta open fonksiyon bile kullanamamalıyız.
  */
 
 
