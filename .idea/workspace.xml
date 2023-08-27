@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="observable ke">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Delegate/BasicDelegate/Delegate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Delegate/BasicDelegate/DelegateQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Delegate/ClassDelegate/ClassDelegate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/23_Reflection.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="reflection ke">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Enum/Enum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Enum/EnumQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Object/CompanionObject/CompanionObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Object/CompanionObject/CompanionObjectQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Object/LazyInitialization/LazyInitialization.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Object/LazyInitialization/LazyInitializationQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Object/ObjectDecleration/ObjectDeclarations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Object/ObjectDecleration/ObjectDeclerationQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloadingQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/SealedClass/SealedClassAndInterface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Projects/TicTacToe/TicTacToe1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/24_Generics.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/10_AbstractClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/10_AbstractClasses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IfExpression/IfExpressionQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IfExpression/IfExpressionQuiz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/14_SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/14_SealedClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/EnumClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/EnumClasses.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,37 +75,37 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._23_ReflectionKt">
-    <configuration name="ClassDelegateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Delegate.ClassDelegate.ClassDelegateKt" />
+  <component name="RunManager" selected="Kotlin.TicTacToe1Kt">
+    <configuration name="CompanionObjectQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Object.CompanionObject.CompanionObjectQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelegateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Delegate.BasicDelegate.DelegateKt" />
+    <configuration name="IfExpressionQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.IfExpression.IfExpressionQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelegateQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Delegate.BasicDelegate.DelegateQuizKt" />
+    <configuration name="LazyInitializationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Object.LazyInitialization.LazyInitializationKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Delegate.Observable.ObservableKt" />
+    <configuration name="LazyInitializationQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Object.LazyInitialization.LazyInitializationQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_23_ReflectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kekod.Classes._23_ReflectionKt" />
+    <configuration name="TicTacToe1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.TicTacToe.TicTacToe1Kt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._23_ReflectionKt" />
-        <item itemvalue="Kotlin.ClassDelegateKt" />
-        <item itemvalue="Kotlin.DelegateQuizKt" />
-        <item itemvalue="Kotlin.DelegateKt" />
-        <item itemvalue="Kotlin.ObservableKt" />
+        <item itemvalue="Kotlin.TicTacToe1Kt" />
+        <item itemvalue="Kotlin.IfExpressionQuizKt" />
+        <item itemvalue="Kotlin.LazyInitializationQuizKt" />
+        <item itemvalue="Kotlin.LazyInitializationKt" />
+        <item itemvalue="Kotlin.CompanionObjectQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +238,7 @@
       <workItem from="1692830043006" duration="13012000" />
       <workItem from="1692907680145" duration="21573000" />
       <workItem from="1692955718249" duration="726000" />
-      <workItem from="1693005566501" duration="17299000" />
+      <workItem from="1693005566501" duration="44299000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -565,15 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00056" summary="observable ke">
+    <task id="LOCAL-00057" summary="reflection ke">
       <option name="closed" value="true" />
-      <created>1693015196910</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
+      <created>1693103650045</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
       <option name="project" value="LOCAL" />
-      <updated>1693015196910</updated>
+      <updated>1693103650046</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +603,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="collection list" />
     <MESSAGE value="thread" />
     <MESSAGE value="high-order" />
     <MESSAGE value="classes" />
@@ -617,7 +627,8 @@
     <MESSAGE value="singleton" />
     <MESSAGE value="delegate properties" />
     <MESSAGE value="observable ke" />
-    <option name="LAST_COMMIT_MESSAGE" value="observable ke" />
+    <MESSAGE value="reflection ke" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection ke" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,6 +1093,26 @@
           <line>24</line>
           <option name="timeStamp" value="510" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloadingQuiz.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloadingQuiz.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloadingQuiz.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloadingQuiz.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>
           <line>16</line>
@@ -1180,6 +1211,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="554" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Enum/EnumQuiz.kt</url>
+          <line>2</line>
+          <properties class="JetBrainsAcademy.Classes.Enum.Rainbow2" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="601" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

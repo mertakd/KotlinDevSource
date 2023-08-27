@@ -5,7 +5,7 @@ package Kekod.Classes
  *
  * 1
  * Kullanım amacı aynı veri kümelerinin gruplanabilir olmasıını sağlar. -> string mesela
- * Opsiyonların tamamının neler olduğunu rhatça görebilmenizi sağlar
+ * Opsiyonların tamamının neler olduğunu rahatça görebilmenizi sağlar
    ColorType ın kaç tane color içerdiğini görebiliyor oluyorum.
    Enum kullanmazsak bu tiplerin kaç tane olacağını göremeyeceğiz.
    Enum kullanmazsak vermememiz gereken bir parametre vermiş oluyoruz ve kod doğru çalışmıyor.
@@ -19,7 +19,7 @@ Tip guvenligini (type-safety) saglar
 Kullanim amaci ayni veri kumelerinin gruplanabilir olmasini saglar
 Opsiyonlarin tamamaminin neler oldugunu rahatca gorebilmemizi saglar
 
-abstract, openi inner, sealed olamazlar
+abstract, open, inner, sealed olamazlar
 yapisi geregi zaten final'dir. Final keyword'u kullanmak redundant uyarisi verir
 
 ozunde class olduklari icin, constructor kullanabilirler ve bu constructor icersinde veri tutabilirler
@@ -204,7 +204,7 @@ fun main() {
 
     //Enum kullanılmadan logic yapılırsa
     //hangi değerlerin olduğunu kontrol edemeyeceğiz
-    //15 sayfa da çağırdık diyelim güncellemesi zor olacak ve mıtlaka unutup kaçırdığımız bir nokta olacak.
+    //15 sayfa da çağırdık diyelim güncellemesi zor olacak ve mutlaka unutup kaçırdığımız bir nokta olacak.
 
     val fb = "FENERBAHCE"
     val gs = "GALATASARAY"

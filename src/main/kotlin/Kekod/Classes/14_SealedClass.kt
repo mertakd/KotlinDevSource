@@ -88,9 +88,11 @@ sealed class Response2 {
 fun handle(response: Response) {
     when (response) {
         is Success -> {
+            println("success")
             //  response'dan gelen bilgilerle UI'ini doldur
         }
         is Error -> {
+            println("error")
             //  pop-up ile kullaniciya bilgi ver.
         }                   //else yazmama gerek yok cunku :Response miras aldirdigim icin secenekler belli, 2 secenek var. Else yok.
     }
