@@ -93,9 +93,9 @@ class Fabric(var color: String) {
         println("$color fabric is created")
     }
 
-    constructor() : this("plain")
+
 }
-fun main5() {
+fun main() {
     val fabric = Fabric("white", "nokta", "siyah")
 }
 
@@ -115,7 +115,7 @@ class EspressoMachine {
     }
 }
 
-fun main() {
+fun main23() {
     val makine1 = EspressoMachine(coffeeCapsulesCount = 20, totalCost = 30.0f)
     val makine2 = EspressoMachine(coffeeBeansWeight = 250.0f, totalCost = 50.0f)
 }

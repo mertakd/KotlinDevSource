@@ -1,16 +1,36 @@
+
+
+
+
+
 fun main() {
 
 
-
-    val a = readLine()!!.toInt()
-    val b = readLine()!!.toInt()
-    var product = 1L
-    for (i in a until b) {
-        product *= i
-    }
-    println(product)
+val size11 = Size11()
+val size12 = Size12()
 
 }
+
+
+
+// preferable solution
+class Size11() {
+    var width: Int = 0
+    var height: Int = 0
+}
+
+// or this way
+
+class Size12 {
+    var width: Int = 0
+    var height: Int = 0
+
+    constructor() {
+    }
+}
+
+
+
 
 
 

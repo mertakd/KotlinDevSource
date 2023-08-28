@@ -17,10 +17,15 @@ fun createPoint(x:Int, y:Int, z:Int):Point3D{
     }
 }
 
+fun createPoint2(x:Int,y:Int,z:Int) = Point3D().also { it.x = x; it.y = y; it.z = z}
 
-fun main1() {
+
+fun main() {
     val point = createPoint(1,2,3)
     println("Point coordinates: (${point.x}, ${point.y}, ${point.z})")
+
+    val point2 = createPoint2(5,10,25)
+    println("${point2.x}, ${point2.y}, ${point2.z}")
 }
 
 
@@ -30,12 +35,13 @@ fun main1() {
 data class OperatingSystem(var name:String = "")
 
 class DualBot{
-    var primaryOs: OperatingSystem = OperatingSystem("Vim")
-    var seconderyOs: OperatingSystem = OperatingSystem("Boss")
+    var primaryOs = OperatingSystem("Windows")
+    var seconderyOs = OperatingSystem("Mac Os")
 }
 
 fun main2() {
-    val os = DualBot().primaryOs
+    val os = DualBot()
+    println("${os.primaryOs}, ${os.seconderyOs}")
 }
 
 
@@ -47,7 +53,7 @@ class Rectangle{
 }
 
 fun printArea(rectangle: Rectangle){
-    println(rectangle.width * rectangle.height)
+    println(rectangle.height * rectangle.width)
 }
 
 fun main3() {
@@ -61,3 +67,16 @@ fun main3() {
 
 
 //quiz4
+class Student(val name : String, var age : Int){
+
+    fun introduceSelf() = "Hello, I am $name and I am $age years old"
+}
+
+fun main6() {
+    val student1 = Student("mert",22)
+    println(student1.introduceSelf())
+}
+
+
+
+//quiz 5

@@ -17,9 +17,10 @@ class Size{
     }
 }
 
-fun main1() {
+fun main89() {
     val size1 = Size(3,4)
     val size2 = Size(22,45)
+    //val size3 = Size()
 }
 
 
