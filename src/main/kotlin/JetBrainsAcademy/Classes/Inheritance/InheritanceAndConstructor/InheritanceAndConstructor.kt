@@ -32,6 +32,13 @@ class FictionBook(title: String, author: String = "Unknown",
                   isbn: Long = 0) : Book(title, author, genre = "fiction", isbn)
 
 
+fun main2() {
+
+    val fiction = FictionBook("alice harikalar","james skalon",95)
+    println( fiction.genre)
+}
+
+
 
 
 
@@ -47,10 +54,68 @@ class Derived(val alpha:Int, beta: Int, gamma: Int, message: String = "") : Base
     constructor(alpha: Int, beta: Int, message: String = "") : this(alpha, beta, 0, message)
 }
 
-fun main() {
+fun main1() {
     Base(10)
     Base(10,20)
     Base(10,20,"my message")
     Base(10,"my message")
 }
 //Temel sınıfın ikincil kurucusu, this anahtar sözcüğü aracılığıyla birincil kurucuya yetki verme işlemini kullanıyor
+
+
+
+
+//DERİVED SINIFI SECODEY CONSTRUCTER LAR İLE DAHA FAZLA KONTROL ALTINA ALINIYOR
+open class Base2(val beta: Int, val gamma: Int = 0, var message: String = "")
+
+class Derived2 : Base2 {
+    val alpha: Int
+
+    constructor(alphaConstr: Int, beta: Int) : super(beta) {
+        alpha = alphaConstr
+    }
+
+    constructor(alphaConstr: Int, beta: Int, gamma: Int) : super(beta, gamma) {
+        alpha = alphaConstr
+    }
+
+    constructor(alphaConstr: Int, beta: Int, gamma: Int, message: String) : super(beta, gamma, message) {
+        alpha = alphaConstr
+    }
+
+    constructor(alphaConstr: Int, beta: Int, message: String) : super(beta, message = message) {
+        alpha = alphaConstr
+    }
+}
+
+
+
+//SIRALAMA
+open class Base3(val message: String, val email: String){
+
+    init {
+        println("Base class init")
+    }
+
+    constructor(email: String) : this("no message",email) {
+        println("base class secodry")
+    }
+}
+
+class Derived3(email: String) : Base3(email){
+
+    init {
+        println("derived class init")
+    }
+    constructor() : this("example.com"){
+        println("derived class secondery")
+    }
+}
+
+
+fun main3() {
+
+    println("deriveddddddddddddddd")
+    val myDerived = Derived3()
+    println(myDerived.email)
+}

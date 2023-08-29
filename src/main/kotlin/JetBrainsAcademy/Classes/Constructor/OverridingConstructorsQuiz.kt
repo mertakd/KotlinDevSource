@@ -51,22 +51,64 @@ fun main11() {
 
 
 // Quiz 1
-open class Animal(val name: String, val age: Int)
+open class Animal(val name:String, val age: Int)
 
 class Dog(name: String, age: Int) : Animal(name, age){
 
-    var bread: String = ""
+    var breed: String = ""
 
     constructor(name: String, age: Int, breed: String) : this(name, age){
-        this.bread = bread
+        this.breed = breed
     }
+
 }
 
-fun main() {
+fun main12() {
 
     val dog1 = Dog("buddy",3)
     val dog2 = Dog("chralie",5,"labrador")
 
     println("${dog1.name} is ${dog1.age} years old.")
-    println("${dog2.name} is ${dog2.age} years old and is a ${dog2.bread}.")
+    println("${dog2.name} is ${dog2.age} years old and is a ${dog2.breed}.")
 }
+
+
+// Quiz 2
+open class Person3(val name: String){
+
+    var age: Int = 0
+
+    constructor(name: String, age: Int) : this(name){
+        this.age = age
+    }
+}
+class Employee3(name: String,age: Int,val id: Int) : Person3(name,age)
+
+fun main3() {
+    val person3 = Person3("mert")
+    val person4 = Person3("davut",29)
+    val employee3 = Employee3("kerem",30,234)
+}
+
+
+
+// Quiz 3
+open class Animal1(val name: String, val age: Int)
+
+class Dog1(name:String,age: Int) : Animal1(name, age)
+
+
+
+//Quiz4 Andromeda
+
+class Lecture{
+
+    constructor(person1: Person1){
+        person1.lecture.add(this)
+        //Lecture sınıfının nesnesini oluşturmak yerine this ilegeçirdik
+    }
+}
+
+
+class Person1(val lecture: MutableList<Lecture> = mutableListOf())
+
