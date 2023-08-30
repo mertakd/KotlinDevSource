@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="constructor jet">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Inheritance/InheritanceAndConstructor/InheritanceAndConstructorQuiz.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="override constructor">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Inheritance/InterfaceComposition/InterfaceComposition.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Inheritance/InterfaceComposition/InterfaceCompositionQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Constructor/OverridingConstructorsQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Constructor/OverridingConstructorsQuiz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Inheritance/InheritanceAndConstructor/InheritanceAndConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Inheritance/InheritanceAndConstructor/InheritanceAndConstructor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Interfaces/IntroductionToInterfaces.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Interfaces/IntroductionToInterfaces.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InheritanceAndConstructorKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="InheritanceAndConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Inheritance.InheritanceAndConstructor.InheritanceAndConstructorKt" />
       <module name="KotlinDevSource" />
@@ -70,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberFunctionQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.MemberFunction.MemberFunctionQuizKt" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.InheritanceAndConstructorKt" />
         <item itemvalue="Kotlin.OverridingConstructorsQuizKt" />
         <item itemvalue="Kotlin.SecondaryConstructorQuizKt" />
         <item itemvalue="Kotlin.SecondaryConstructorKt" />
-        <item itemvalue="Kotlin.MemberFunctionQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +231,8 @@
       <workItem from="1693204071106" duration="18008000" />
       <workItem from="1693247215675" duration="598000" />
       <workItem from="1693289914945" duration="2163000" />
-      <workItem from="1693293329541" duration="4709000" />
+      <workItem from="1693293329541" duration="5364000" />
+      <workItem from="1693385431960" duration="9233000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -567,15 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00059" summary="constructor jet">
+    <task id="LOCAL-00060" summary="override constructor">
       <option name="closed" value="true" />
-      <created>1693240322909</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
+      <created>1693317453145</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
       <option name="project" value="LOCAL" />
-      <updated>1693240322910</updated>
+      <updated>1693317453146</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +597,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="classes" />
     <MESSAGE value="visibility modifier" />
     <MESSAGE value="propert vs field finished" />
     <MESSAGE value="data class finished" />
@@ -619,7 +621,8 @@
     <MESSAGE value="reflection ke" />
     <MESSAGE value="object" />
     <MESSAGE value="constructor jet" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor jet" />
+    <MESSAGE value="override constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="override constructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

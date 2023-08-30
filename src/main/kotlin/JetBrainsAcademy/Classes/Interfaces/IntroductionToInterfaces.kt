@@ -5,7 +5,12 @@ package JetBrainsAcademy.Classes.Interfaces
  * Bu, bir arayüzün örneğini oluşturamayacağımız, ancak o arayüzü uygulayan sınıfın bir örneğini yaratabileceğimiz anlamına gelir.
  * Burada basit bir arayüzümüz var; farklı hayvanları temsil edecek sınıflar için bir "iskelet".
  * Bir arayüzün yöntemleri, tıpkı diğer yöntemler gibi, bazı değerleri döndürebilir (yukarıdaki örnekte belirtildiği gibi).
- * tüm arayüz uygulanmalı yoksa hata alırız.*/
+ * tüm arayüz uygulanmalı yoksa hata alırız.
+ *
+ * body li bir fonk siyon yazarsak bunu implement etmemize gerek kalmaz.
+ * interface ler sınıflar dan ziya de nesnelerle etkileşime girerler.
+ * What OOP principles do interfaces implement?
+    Encapsulation ve Abstraction*/
 
 interface Animal {
 
@@ -74,6 +79,40 @@ interface Animal4 {
     fun printNumberOfLimbs() {
         print(numberOfLimbs)
     }
+
+    fun boxex()
+
+
+}
+
+
+class Bird() : Animal4{
+
+    override fun move() {
+        TODO("Not yet implemented")
+    }
+
+    override fun communicate(): String {
+        TODO("Not yet implemented")
+    }
+
+    override val age: Int
+        get() = super.age
+
+    override val numberOfLimbs: Int
+        get() = TODO("Not yet implemented")
+
+    override fun printNumberOfLimbs() {
+        super.printNumberOfLimbs()
+    }
+
+    override fun boxex() {
+        TODO("Not yet implemented")
+    }
+}
+fun main() {
+    val bird = Bird()
+    bird.communicate()
 }
 
 
