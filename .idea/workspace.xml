@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="Interface Composition Jet">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Abstract/Abstract.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Abstract/AbstractQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Generics/Generics.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="Abastract Quiz">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenerics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenericsQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericFunctions/GenericFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericFunctions/GenericFunctionsQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBounds.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBoundsQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Generics/Generics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Generics/Generics.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,37 +66,37 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AbstractQuizKt">
-    <configuration name="AbstractQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Abstract.AbstractQuizKt" />
+  <component name="RunManager" selected="Kotlin.GenericsAndAnyKt">
+    <configuration name="GenericFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericFunctions.GenericFunctionsKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceAndConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Inheritance.InheritanceAndConstructor.InheritanceAndConstructorKt" />
+    <configuration name="GenericFunctionsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericFunctions.GenericFunctionsQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="GenericsAndAnyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericsAndAny.GenericsAndAnyKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingConstructorsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Constructor.OverridingConstructorsQuizKt" />
+    <configuration name="TypeBoundsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.TypeBounds.TypeBoundsKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondaryConstructorQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Constructor.SecondaryConstructor.SecondaryConstructorQuizKt" />
+    <configuration name="TypeBoundsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.TypeBounds.TypeBoundsQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AbstractQuizKt" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.InheritanceAndConstructorKt" />
-        <item itemvalue="Kotlin.OverridingConstructorsQuizKt" />
-        <item itemvalue="Kotlin.SecondaryConstructorQuizKt" />
+        <item itemvalue="Kotlin.GenericsAndAnyKt" />
+        <item itemvalue="Kotlin.TypeBoundsQuizKt" />
+        <item itemvalue="Kotlin.TypeBoundsKt" />
+        <item itemvalue="Kotlin.GenericFunctionsQuizKt" />
+        <item itemvalue="Kotlin.GenericFunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +234,8 @@
       <workItem from="1693247215675" duration="598000" />
       <workItem from="1693289914945" duration="2163000" />
       <workItem from="1693293329541" duration="5364000" />
-      <workItem from="1693385431960" duration="21808000" />
+      <workItem from="1693385431960" duration="22721000" />
+      <workItem from="1693468721747" duration="13639000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -570,15 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00061" summary="Interface Composition Jet">
+    <task id="LOCAL-00062" summary="Abastract Quiz">
       <option name="closed" value="true" />
-      <created>1693396689284</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
+      <created>1693421922136</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
       <option name="project" value="LOCAL" />
-      <updated>1693396689285</updated>
+      <updated>1693421922136</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +600,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="propert vs field finished" />
     <MESSAGE value="data class finished" />
     <MESSAGE value="enum" />
     <MESSAGE value="sealed class" />
@@ -622,7 +624,8 @@
     <MESSAGE value="constructor jet" />
     <MESSAGE value="override constructor" />
     <MESSAGE value="Interface Composition Jet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface Composition Jet" />
+    <MESSAGE value="Abastract Quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abastract Quiz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

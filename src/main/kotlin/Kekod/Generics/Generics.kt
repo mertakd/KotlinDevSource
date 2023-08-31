@@ -3,11 +3,12 @@ package Kekod.Generics
 /**
  * Parametre olarak verilebilecek hiyerarşiyi kısıtlmaya yarar. Mesela sadece Auto ve autonun cgild class larında gelenler alınsın
  * Her tipden değer alabilir.
+ * derleme zamanında ttipi bilmez, çalışma zamanında tipi bilir.
  *
  * out : üst sınıfın, child kısmınında aktif olmasını sağlıyor.
  * in : üst sınıf ve üst class ı nın aktif olması
  * T : sadece T varsa her şeyi alabiliyoruz.
- * reified :  reified sadece inline fonksiyonlar da kullanılıyor. */
+ * reified :  reified sadece inline fonksiyonlar da kullanılıyor. derleme zamanında hangi tipde olabileceği biliniyor.*/
 
 
 interface TransportationFunctions{
