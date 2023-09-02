@@ -1,6 +1,7 @@
 package JetBrainsAcademy.Arrays
 
 /**
+ * Bir array in boyutunu(size) değiştiremeyiz.
  * ilk elementin, index i 0 dır ve array size -1 ile erişilir.
  * */
 

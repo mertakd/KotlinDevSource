@@ -8,6 +8,10 @@ package Turkcell.Lists
 
 fun main1() {
 
+    var dizi1 = arrayOf("mert","davut")
+    dizi1[0] = "mertoviç"
+    dizi1.set(1,"davix")
+
     //eleman eklenmez array olduğu için.size eklenimyor yani:4 size var 5. eklenmeye çalışıyor
     val dizi = intArrayOf(1,5,7,9)
 

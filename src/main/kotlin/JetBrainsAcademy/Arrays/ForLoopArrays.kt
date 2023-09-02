@@ -24,6 +24,8 @@ fun main3() {
     for (index in daysOfWeek.indices){
         println("$index: ${daysOfWeek[index]}")
     }
+    //index 0..6 ya kadar olan index i alır
+    //daysOfWeek[index] bu da haftanın günlerini yazdırır.
 
 
 
@@ -91,7 +93,7 @@ fun main4() {
 }
 
 
-fun main() {
+fun main566() {
     val n = readLine()!!.toInt()
     val numbers = IntArray(n) { readLine()!!.toInt() }
 
@@ -103,4 +105,18 @@ fun main() {
     }
 
     println(tripleCount)
+}
+
+
+fun main() {
+    val size = readln().toInt()
+    val array = IntArray(size)
+
+    for (i in 0..array.lastIndex) {
+        array[i] = readln().toInt()
+    }
+
+    for (i in array.lastIndex downTo 0) {
+        print("${array[i]} ")
+    }
 }
