@@ -50,6 +50,7 @@ fun main() {
 
     var nums = RandomCollection(listOf(10, 25, 32, 4))
 
+
     for (i in 0 until nums.length()) {
         print("${nums.get(i)} ") // "1 2 3 4 "
     }

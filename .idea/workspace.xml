@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="Generics ek">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ArraysQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArraysQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/StringArraysQuiz.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/Arrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Arrays/ForLoopArrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/InvarianceCovarianceContravarince/Invariance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/InvarianceCovarianceContravarince/Invariance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Turkcell/Lists/ArrayAndArrayList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Turkcell/Lists/ArrayAndArrayList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenerics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenerics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenericsQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenericsQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2N6x7vo2LHsbuFRXbdulzVJDk0w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -71,9 +65,16 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ForLoopArraysQuizKt">
-    <configuration name="ArraysQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Arrays.ArraysQuizKt" />
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="BasicGenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.BasicGenerics.BasicGenericsKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicGenericsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.BasicGenerics.BasicGenericsQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,20 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringArraysQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Arrays.StringArraysQuizKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.BasicGenericsQuizKt" />
+        <item itemvalue="Kotlin.BasicGenericsKt" />
         <item itemvalue="Kotlin.ForLoopArraysQuizKt" />
         <item itemvalue="Kotlin.ForLoopArraysKt" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.StringArraysQuizKt" />
-        <item itemvalue="Kotlin.ArraysQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +238,9 @@
       <workItem from="1693519710881" duration="604000" />
       <workItem from="1693559074017" duration="7327000" />
       <workItem from="1693595004761" duration="881000" />
-      <workItem from="1693640773902" duration="21502000" />
+      <workItem from="1693640773902" duration="22139000" />
+      <workItem from="1693676199203" duration="1840000" />
+      <workItem from="1693734675207" duration="4547000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -582,15 +578,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00064" summary="Generics ek">
+    <task id="LOCAL-00065" summary="array">
       <option name="closed" value="true" />
-      <created>1693595289623</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
+      <created>1693671531988</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
       <option name="project" value="LOCAL" />
-      <updated>1693595289624</updated>
+      <updated>1693671531989</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +605,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="sealed class" />
     <MESSAGE value="nesned and inner class finished" />
     <MESSAGE value="nesned class" />
     <MESSAGE value="inheritance" />
@@ -634,7 +629,8 @@
     <MESSAGE value="Abastract Quiz" />
     <MESSAGE value="Generics" />
     <MESSAGE value="Generics ek" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generics ek" />
+    <MESSAGE value="array" />
+    <option name="LAST_COMMIT_MESSAGE" value="array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
