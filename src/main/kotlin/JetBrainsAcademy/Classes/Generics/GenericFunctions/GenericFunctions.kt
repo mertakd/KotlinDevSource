@@ -47,7 +47,7 @@ fun main23() {
 
 
 
-
+//Bir sınıfa üye olmadığınızda bazı işlevler eklemenize olanak tanıyan uzantı işlevlerini kullanabilirsiniz.
 class BiggerBox<T>(var value1: T, var value2: T) {}
 
 fun <T> BiggerBox<T>.changeBoxes() {
@@ -56,9 +56,41 @@ fun <T> BiggerBox<T>.changeBoxes() {
     this.value2 = tmp
 }
 
-fun main() {
+fun main34() {
     var box = BiggerBox("hyperskill", "kotlin")
     println("${box.value1} and ${box.value2}")// hyperskill and kotlin
     box.changeBoxes()
     println("${box.value1} and ${box.value2}")// kotlin and hyperskill
+}
+
+
+
+
+
+
+
+/*
+*Bu örnekte, someGenericMethod fonksiyonu T türünden bir değeri alır (stringValue) ve U türünden bir değeri de alır (intValue), ancak fonksiyon
+*sadece T değerini döndürürken U üzerinde herhangi bir işlem yapmaz. Bu nedenle, U türünden gelen intValue değeri fonksiyon içinde kullanılmaz ve
+*sadece stringValue değeri geri döndürülür.   */
+
+
+class GenericClass<T>{
+
+    fun <U> someGenericMethod(t: T, u: U): T{
+        // Sadece T türündeki değeri döndürüyoruz, U üzerinde işlem yapmıyoruz
+        return t
+    }
+}
+
+
+fun main() {
+
+    val genericObject = GenericClass<String>()
+
+    val stringValue = "merhaba dünya!"
+    val intValue = 42
+
+    val result = genericObject.someGenericMethod(stringValue,intValue)
+    println(result)
 }

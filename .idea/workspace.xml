@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="array">
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="generic basic tekrar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenerics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenerics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenericsQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenericsQuiz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericFunctions/GenericFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericFunctions/GenericFunctions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Arrays.ForLoopArraysKt" />
+    <configuration name="GenericFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericFunctions.GenericFunctionsKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopArraysQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Arrays.ForLoopArraysQuizKt" />
+    <configuration name="GenericFunctionsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericFunctions.GenericFunctionsQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,10 +104,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.GenericFunctionsQuizKt" />
+        <item itemvalue="Kotlin.GenericFunctionsKt" />
         <item itemvalue="Kotlin.BasicGenericsQuizKt" />
         <item itemvalue="Kotlin.BasicGenericsKt" />
-        <item itemvalue="Kotlin.ForLoopArraysQuizKt" />
-        <item itemvalue="Kotlin.ForLoopArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +240,7 @@
       <workItem from="1693595004761" duration="881000" />
       <workItem from="1693640773902" duration="22139000" />
       <workItem from="1693676199203" duration="1840000" />
-      <workItem from="1693734675207" duration="4547000" />
+      <workItem from="1693734675207" duration="10547000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -578,15 +578,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00065" summary="array">
+    <task id="LOCAL-00066" summary="generic basic tekrar">
       <option name="closed" value="true" />
-      <created>1693671531988</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
+      <created>1693739265258</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
       <option name="project" value="LOCAL" />
-      <updated>1693671531989</updated>
+      <updated>1693739265258</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +605,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="nesned and inner class finished" />
     <MESSAGE value="nesned class" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="property vs field" />
@@ -630,7 +629,8 @@
     <MESSAGE value="Generics" />
     <MESSAGE value="Generics ek" />
     <MESSAGE value="array" />
-    <option name="LAST_COMMIT_MESSAGE" value="array" />
+    <MESSAGE value="generic basic tekrar" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic basic tekrar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
