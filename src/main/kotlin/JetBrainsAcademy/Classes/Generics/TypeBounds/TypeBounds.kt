@@ -2,6 +2,7 @@ package JetBrainsAcademy.Classes.Generics.TypeBounds
 
 
 
+
 // Daha sonra nesnelerini depolamak istediğimiz sınıfları yaratırız:
 open class Book {}
 class Magazine : Book() {}
@@ -39,3 +40,13 @@ fun main() {
     sortByDate(listOne) // OK because Magazine is a subtype of Book
     //sortByDate(listTwo) // Error: String is not a subtype of Book
 }
+
+
+interface Watchable<T> {
+
+}
+fun <T> sortByDate2(list: List<T>)
+
+        where T : Book, T : Watchable<T> {
+
+        }
