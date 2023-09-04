@@ -56,7 +56,7 @@ class ListUtils {
     }
 }
 
-fun main() {
+fun main95() {
 
     val numbers = listOf(1,2,3,4,5)
     val emptyList = emptyList<Int>()
@@ -66,4 +66,24 @@ fun main() {
 
     println(numbersInfo)
     println(emptyListInfo)
+}
+
+
+
+
+// Quiz 5
+class SomeCollection<T>(val list: List<T>){
+
+    fun invert(){
+        val reversed = list.reversed()
+        println(reversed)
+    }
+}
+
+
+fun main() {
+
+    val list = listOf("hello","bonjuu","guten tag")
+    val collection = SomeCollection(list)
+    collection.invert()
 }

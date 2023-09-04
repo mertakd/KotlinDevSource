@@ -1,49 +1,29 @@
 import Kekod.Boo
 
-
-class ListUtils{
-
-    companion object Info{
-
-        fun <T> info(list:List<T>): String{
-            if (list.isEmpty()){
-                return "[]"
-            }
-            return list.joinToString ( ",", "[", "]")
-        }
-
+class SomeCollection<T>(val list: List<T>) {
+    // write your code here
+    fun invert() {
+        val reversed = list.reversed()
+        println(reversed)
     }
 }
 
-
-fun main1() {
-
-    val numbers = listOf(1,2,3,4,5)
-    val emptyList = emptyList<Int>()
-
-    val numbersInfo = ListUtils.Info.info(numbers)
-    val emptyListInfo = ListUtils.Info.info(emptyList)
-
-    println(numbersInfo)
-    println(emptyListInfo)
+fun main768678() {
+    val list = listOf("hello", "bonjour", "guten tag")
+    val collection = SomeCollection(list)
+    collection.invert()
 }
 
 
+class Foo {
+    fun <T> T.foo(that: T): T = throw Exception()
 
-data class Box<T>(val item:T){}
-
-fun <T> Box<T>.guessBox(){
-    println("In this box you have: $item")
+    init {
+        "str".foo(42)
+    }
 }
 
-fun main45() {
-
-    val stringBox = Box("my books")
-    val intBox = Box(27)
-
-    val st = stringBox.guessBox()
-    val int = intBox.guessBox()
-
-    println("$st and $int")
+fun main() {
+    val foo = Foo()
+    println(foo)
 }
-
