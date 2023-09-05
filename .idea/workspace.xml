@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="generic and any">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeAliases/TypeAliases.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="type aliases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBounds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBounds.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBoundsQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBoundsQuiz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Generics/Generics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Generics/Generics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TypeBoundsQuizKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="GenericAndAnyQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericsAndAny.GenericAndAnyQuizKt" />
       <module name="KotlinDevSource" />
@@ -103,10 +103,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.TypeBoundsQuizKt" />
         <item itemvalue="Kotlin.GenericAndAnyQuizKt" />
         <item itemvalue="Kotlin.GenericsAndAnyKt" />
-        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.GenericFunctionsQuizKt" />
       </list>
     </recent_temporary>
@@ -241,7 +241,9 @@
       <workItem from="1693640773902" duration="22139000" />
       <workItem from="1693676199203" duration="1840000" />
       <workItem from="1693734675207" duration="13822000" />
-      <workItem from="1693821426395" duration="11537000" />
+      <workItem from="1693821426395" duration="12947000" />
+      <workItem from="1693865411944" duration="1145000" />
+      <workItem from="1693910261045" duration="5082000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -579,15 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00068" summary="generic and any">
+    <task id="LOCAL-00069" summary="type aliases">
       <option name="closed" value="true" />
-      <created>1693846585289</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
+      <created>1693856114034</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1693846585290</updated>
+      <updated>1693856114034</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +608,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="property vs field" />
     <MESSAGE value="basic class first head kotlin" />
     <MESSAGE value="head first cotlin basic classes fihished" />
     <MESSAGE value="abstract" />
@@ -631,7 +632,8 @@
     <MESSAGE value="generic basic tekrar" />
     <MESSAGE value="generic fonksiyonlar" />
     <MESSAGE value="generic and any" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic and any" />
+    <MESSAGE value="type aliases" />
+    <option name="LAST_COMMIT_MESSAGE" value="type aliases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,7 +5,7 @@ package Kekod.Generics
  * Her tipden değer alabilir.
  * derleme zamanında ttipi bilmez, çalışma zamanında tipi bilir.
  *
- * out : üst sınıfın, child kısmınında aktif olmasını sağlıyor.
+ * out : üst sınıfın, child kısmınında aktif olmasını sağlıyor. out olan classın kendisini yada child class nı eşitlik olarak verebilirizç
  * in : üst sınıf ve üst class ı nın aktif olması
  * T : sadece T varsa her şeyi alabiliyoruz.
  * reified :  reified sadece inline fonksiyonlar da kullanılıyor. derleme zamanında hangi tipde olabileceği biliniyor.*/
@@ -108,14 +108,14 @@ class Corelli(
 
 
 // Auto -> MiniCooper -> John -> JohnCabario
-//      -> Beetle
+//      -> Beetle(Auto nun çocuğu)
 
 // Bycle -> Bisan -> BlackBisan
-//       -> Corelli
+//       -> Corelli(Bycle ın çocuğu)
 
 
 
-class TransportFactory<T:Auto>(transportationVehicle: T){
+class TransportFactory<in T:Auto>(transportationVehicle: T){
     init {
         println(transportationVehicle.toString())
     }
@@ -134,7 +134,46 @@ fun main() {
     val blackBisan: BlackBisan = BlackBisan()
     val corelli: Corelli = Corelli()
 
+    val miniCooperFactory: TransportFactory<MiniCooper> = TransportFactory<MiniCooper>(miniCooper)
     val johnFactory: TransportFactory<John> = TransportFactory<John>(john)
+    val johnCabrioFactory: TransportFactory<JohnCabrio> = TransportFactory<JohnCabrio>(johnCaprio)
+    val beetleFactory: TransportFactory<Beetle> = TransportFactory<Beetle>(beetle)
+
+
+    val johnFactory2: TransportFactory<John> = TransportFactory<MiniCooper>(miniCooper)
+    // üst class ın nesnesini oluşturuyoruz ama child class a atamaya çalışıyoruz.
+
+    //val johnFactory3: TransportFactory<John> = TransportFactory<JohnCabrio>(johnCaprio)
+    val johnFactory4: TransportFactory<John> = TransportFactory<John>(john)
+    // out : John ve John un child dını kabul eder.
+    // in : John kendisi ve John un üst class ı gelirse kabulüm. ama child class kabul değil.
+
+    /*
+    * İlk kısım değişkenin tipi               miniCooperFactory: TransportFactory<MiniCooper> =
+      değişkenin tipine karşılık gelen nesne  TransportFactory<MiniCooper>(miniCooper)   */
+
+
+
+    //sadece T nin kullanıldığı durumda arayüzler eşitse herşeyi alıyoruz  val johnFactory: TransportFactory<John> = TransportFactory<John>(john)
+    // Yani arabaları da bisikletleri de alabiliriz.
+
+
+    /*
+    * class TransportFactory<T:Auto>(transportationVehicle: T)  bu kullanım şeklinde ise
+    * Aynı değişken tipi ve karşılık gelen nesne aynı ise  hata vermez. T:Auto da araba türlerinin hepsi çalışıyor
+    * */
+
+
+
+
+    /**/
+
+
+
+
+
+
+
 
 
 }
