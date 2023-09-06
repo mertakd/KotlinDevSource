@@ -126,6 +126,7 @@ fun main34() {
 */
 
 
+/*
 
 open class Animal
 class Dog : Animal()
@@ -167,6 +168,89 @@ fun main() {
 
 }
 
+*/
+
+
+// Covariance  sınıfı, alt tiplemenin korunduğu generic bir sınıftır. out
+// Contravarince üst tplemenin korunduğu, in.
+
+
+
+
+
+
+// karmaşık türlerin hiçbir şekilde alt tür oluşturmadığı iki tür kümesi arasındaki ilişkiyi tanımlar.
+// Varsayılan olarak Kotlin'deki (ve Java'daki) jenerikler İnvariant (değişmezdir)
+// in veya out gibi herhangi bir varyans(variance) açıklaması belirtmezseniz generic bir sınıf invariant(değişmez) olacaktır.
+open class Animal
+class Cat : Animal(){
+    override fun toString(): String {
+        return "meowwww"
+    }
+}
+
+
+class Box<in T>(val content: @UnsafeVariance T)
+
+fun main2() {
+    val animal = Animal()
+    val cat = Cat()
+
+    val boxAnimal: Box<Animal> = Box<Animal>(cat)
+
+    //İnvariance
+    //val boxAnimalInvariance: Box<Animal> = Box<Cat>(cat)
+}
+
+/*
+* İnvariyans, generic türlerin tür parametrelerinin doğrudan alt türlerine veya üst türlerine dönüştürülemeyeceği bir durumu ifade eder.
+* Yani, bu türler arasında doğrudan bir tür ilişkisi yoktur ve biri diğerinin alt türü veya üst türü değildir
+* Bu nedenle, bu durumda "invariyans" söz konusudur ve bu türler arasında doğrudan bir dönüşüm yapılamaz.*/
+
+
+
+
+
+
+
+//Kovaryans out
+//Kovaryans, generic tür parametresinin alt tür ilişkisine izin verdiği durumu ifade eder.
+
+//"Kutu<out Hayvan>" türü, "Kutu<Kedi>" türünün bir üst türüdür. Yani, bu durumda kovaryans geçerlidir.
+
+
+fun main3() {
+    val animal = Animal()
+    val cat = Cat()
+
+    //val boxCat: Box<Animal> = Box<Cat>(cat)
+    //println( boxCat.content)
+
+}
+
+
+
+
+
+
+
+
+// Contravariance
+//  Kotlin'da contravariance, in anahtar kelimesiyle ifade edilir.
+
+fun main() {
+    val animal = Animal()
+    val cat = Cat()
+
+    val boxAnimal: Box<Animal> = Box<Animal>(animal)
+    //val boxCat: Box<Animal> = Box<Cat>(cat)
+
+
+
+}
+
+
+// invariance verilen tipi kullanmak zorundayız
 
 
 
