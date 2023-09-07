@@ -1,83 +1,85 @@
-package JetBrainsAcademy.IfExpression
+package JetBrainsAcademy.ControlStructures.IfExpression
+
+
 
 import java.time.LocalDate
 
 fun main1() {
-/*
-    //Kotlin's if is an expression, not a statement.
-    val max = if (a > b) {
-        println("Choose a")
-        a
-    } else {
-        println("Choose b")
-        b
-    }
-
-
-    //kısa hali
-    val max = if (a > b) a else b
-
-
-    //sonucu yeni bir değişkende depolamazsak
-    val a = readln().toInt()
-    val b = readln().toInt()
-
-    println(if (a == b) {
-        "a equal b"
-    } else if (a > b) {
-        "a is greater than b"
-    } else {
-        "a is less than b"
-    })
-
-
-
-   //java stili ile de yazılabilir kotlinde
-   final String msg = num > 10
-  ? "Number is greater than 10"
-  : "Number is less than or equal to 10";
-
-
-
-  //if else yerine when kullan
-    val number = 5
-    when (number) {
-        1 -> println("One")
-        2 -> println("Two")
-        3 -> println("Three")
-        4 -> println("Four")
-        else -> println("Number is greater than four")
+    /*
+        //Kotlin's if is an expression, not a statement.
+        val max = if (a > b) {
+            println("Choose a")
+            a
+        } else {
+            println("Choose b")
+            b
         }
 
 
-     //Expression(değer döndüren) olarak when kullanımı
-     val number = 3
-    val message = when (number) {
-        1 -> "One"
-        2 -> "Two"
-        3 -> "Three"
-        4 -> "Four"
-        else -> "Number is greater than four"
-    }
-
-    println(message) // Output: Three
+        //kısa hali
+        val max = if (a > b) a else b
 
 
+        //sonucu yeni bir değişkende depolamazsak
+        val a = readln().toInt()
+        val b = readln().toInt()
+
+        println(if (a == b) {
+            "a equal b"
+        } else if (a > b) {
+            "a is greater than b"
+        } else {
+            "a is less than b"
+        })
 
 
-    //Using "when" with ranges and conditions
-    val number = 15
-    when {
-        number < 0 -> println("Negative number")
-        number in 1..10 -> println("Number between 1 and 10")
-        number % 2 == 0 -> println("Even number")
-        else -> println("Odd number greater than 10")
+
+       //java stili ile de yazılabilir kotlinde
+       final String msg = num > 10
+      ? "Number is greater than 10"
+      : "Number is less than or equal to 10";
+
+
+
+      //if else yerine when kullan
+        val number = 5
+        when (number) {
+            1 -> println("One")
+            2 -> println("Two")
+            3 -> println("Three")
+            4 -> println("Four")
+            else -> println("Number is greater than four")
+            }
+
+
+         //Expression(değer döndüren) olarak when kullanımı
+         val number = 3
+        val message = when (number) {
+            1 -> "One"
+            2 -> "Two"
+            3 -> "Three"
+            4 -> "Four"
+            else -> "Number is greater than four"
         }
 
+        println(message) // Output: Three
 
 
 
-    */
+
+        //Using "when" with ranges and conditions
+        val number = 15
+        when {
+            number < 0 -> println("Negative number")
+            number in 1..10 -> println("Number between 1 and 10")
+            number % 2 == 0 -> println("Even number")
+            else -> println("Odd number greater than 10")
+            }
+
+
+
+
+        */
 }
 
 fun main2() {
@@ -201,7 +203,7 @@ fun main10() {
 fun main11() = if (readLine()!!.toInt() > 0) println("YES") else println("NO")
 
 
-fun main() {
+fun main12() {
     val number1 = readLine()!!.toInt()
     val number2 = readLine()!!.toInt()
     val number3 = readLine()!!.toInt()
@@ -216,6 +218,12 @@ fun main() {
 
     println(maxNumber)
 }
+
+
+
+
+
+
 
 
 

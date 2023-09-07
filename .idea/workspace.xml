@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="generic ke">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/Generics/Generics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/ListQuiz.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="main">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlStructures/IfExpression/IfExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlStructures/IfExpression/IfExpressionQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/HighOrderQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/IfExpression/IfExpressionKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/InvarianceCovarianceContravarince/Invariance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/InvarianceCovarianceContravarince/Invariance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IfExpression/IfExpression.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/IfExpression/IfExpressionQuiz.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,9 +70,16 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InvarianceKt">
-    <configuration name="GenericAndAnyQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericsAndAny.GenericAndAnyQuizKt" />
+  <component name="RunManager" selected="Kotlin.IfExpressionQuizKt">
+    <configuration name="HighOrderQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.LambdaExpressions.HighOrderQuizKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IfExpressionQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ControlStructures.IfExpression.IfExpressionQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,20 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeBoundsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.TypeBounds.TypeBoundsQuizKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.IfExpressionQuizKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.HighOrderQuizKt" />
         <item itemvalue="Kotlin.InvarianceKt" />
         <item itemvalue="Kotlin.ListQuizKt" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.TypeBoundsQuizKt" />
-        <item itemvalue="Kotlin.GenericAndAnyQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +250,8 @@
       <workItem from="1693865411944" duration="1145000" />
       <workItem from="1693910261045" duration="5712000" />
       <workItem from="1693941638208" duration="8260000" />
-      <workItem from="1694007836895" duration="11477000" />
+      <workItem from="1694007836895" duration="12102000" />
+      <workItem from="1694091226181" duration="9272000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -585,15 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00070" summary="generic ke">
+    <task id="LOCAL-00071" summary="main">
       <option name="closed" value="true" />
-      <created>1693931117663</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
+      <created>1694030786757</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1693931117663</updated>
+      <updated>1694030786758</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +616,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="head first cotlin basic classes fihished" />
     <MESSAGE value="abstract" />
     <MESSAGE value="mastering classes" />
     <MESSAGE value="inheritance jetbrains" />
@@ -637,7 +640,8 @@
     <MESSAGE value="generic and any" />
     <MESSAGE value="type aliases" />
     <MESSAGE value="generic ke" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic ke" />
+    <MESSAGE value="main" />
+    <option name="LAST_COMMIT_MESSAGE" value="main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
