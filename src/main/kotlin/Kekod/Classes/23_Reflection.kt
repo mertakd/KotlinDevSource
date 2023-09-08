@@ -2,6 +2,8 @@ package Kekod.Classes
 
 import java.lang.reflect.Field
 
+// private fonksiyonu reflection ile public hale getir
+
 
 /*
 * normalde sınıf üyeleri private olursa dışarıdan erişilemez

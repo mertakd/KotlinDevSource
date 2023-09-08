@@ -1,6 +1,7 @@
 package JetBrainsAcademy.Classes.Delegate.BasicDelegate
 
 /**
+ * Kotlin programlama dilinde arabirimler (interfaces) ve delegasyon (delegation) kavramlarını kullanarak bir sınıfın işlevselliğini başka bir sınıfa aktarmayı göstermektedir.
  * Çoğu programlama, bazen birkaç değişiklikle, mevcut kodun yeniden kullanılmasını içerir.
    Örneğin, nesne yönelimli programlamada (Kotlin'de durum böyledir), kodun yeniden kullanımı için ana araç, daha önce ele aldığımız (İNHERİTANCE)kalıtımdır (ve dolayısıyla kompozisyondur)
    Bu konu başlığımızda mirasa(Inheritance) alternatif olan Delegate tartışacağız.
@@ -35,6 +36,7 @@ class MyNewClass(base: MyInterface) : MyInterface by base {
     override val msg = "Delegate sends regards."
 
 
+// Ancak, bu sınıfın bir farkı vardır: MyNewClass sınıfı, delegasyon (delegation) kullanarak MyInterface'i bir başka sınıfa (burada base olarak adlandırılan bir sınıfa) devreder.
 
 }
 
@@ -44,6 +46,7 @@ fun main() {
     val a = MyImplementation()
 
 
+    println("delegate oluyor")
     val delegate = MyNewClass(a)
     println(delegate.msg)
     println(delegate.print())
