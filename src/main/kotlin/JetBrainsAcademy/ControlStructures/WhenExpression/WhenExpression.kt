@@ -1,27 +1,29 @@
-package JetBrainsAcademy.When
+package JetBrainsAcademy.ControlStructures.WhenExpression
+
+
 
 fun main1(){
-/*
- if-else ile uzun hali
-    val input = readLine()!!.split(" ")
-    val var1 = input[0]
-    val op = input[1]
-    val var2 = input[2]
+    /*
+     if-else ile uzun hali
+        val input = readLine()!!.split(" ")
+        val var1 = input[0]
+        val op = input[1]
+        val var2 = input[2]
 
-    val a = var1.toInt()
-    val b = var2.toInt()
+        val a = var1.toInt()
+        val b = var2.toInt()
 
-    if (op == "+") {
-        println(a + b)
-    } else if (op == "-") {
-        println(a - b)
-    } else if (op == "*") {
-        println(a * b)
-    } else {
-        println("Unknown operator")
-    }
+        if (op == "+") {
+            println(a + b)
+        } else if (op == "-") {
+            println(a - b)
+        } else if (op == "*") {
+            println(a * b)
+        } else {
+            println("Unknown operator")
+        }
 
-*/
+    */
 
 
     val (var1, op, var2) = readln().split(" ")
@@ -78,39 +80,39 @@ fun main2() {
 
     //WHEN AS AN EXPRESSION (DEĞER DÖNDÜREN WHEN)
 
-/*
+    /*
 
-    val result = when (op) {
-        "+" -> a + b
-        "-" -> a - b
-        "*" -> a * b
-        else -> "Unknown operator"
-    }
-    println(result)
-
-*/
-
-/*
-
-
-
-    println(when(op) {
-        "+" -> a + b
-        // ...
-        else -> "Unknown operator"
-    })
-
-*/
-
-
-/*
-
-    "+" -> {
-        val sum = a + b
-        sum
-    }
+        val result = when (op) {
+            "+" -> a + b
+            "-" -> a - b
+            "*" -> a * b
+            else -> "Unknown operator"
+        }
+        println(result)
 
     */
+
+    /*
+
+
+
+        println(when(op) {
+            "+" -> a + b
+            // ...
+            else -> "Unknown operator"
+        })
+
+    */
+
+
+    /*
+
+        "+" -> {
+            val sum = a + b
+            sum
+        }
+
+        */
 
 }
 
@@ -129,16 +131,16 @@ fun main3(){
         else -> "We do not know how to calculate $c"
     })
 
-/*
+    /*
 
-    when (n) {
-        0 -> println("n is zero")
-        in 1..10 -> println("n is between 1 and 10 (inclusive)")
-        in 25..30 -> println("n is between 25 and 30 (inclusive)")
-        else -> println("n is outside a range")
-    }
+        when (n) {
+            0 -> println("n is zero")
+            in 1..10 -> println("n is between 1 and 10 (inclusive)")
+            in 25..30 -> println("n is between 25 and 30 (inclusive)")
+            else -> println("n is outside a range")
+        }
 
-    */
+        */
 
 
     //in a..b, in c..d -> println("n belongs to a range")
@@ -163,20 +165,20 @@ fun main4() {
 
 
 
-    fun main5() {
+fun main5() {
 
-        val answer = readLine()
+    val answer = readLine()
 
-        val result = when (answer) {
-            "1", "Java"  -> "Yes!"
-            "2", "Kotlin"  -> "Yes!"
-            "3", "Scala"  -> "Yes!"
-            "4", "Python"  -> "Yes!"
-            else -> "Unknown number"
-        }
-
-        println(result)
+    val result = when (answer) {
+        "1", "Java"  -> "Yes!"
+        "2", "Kotlin"  -> "Yes!"
+        "3", "Scala"  -> "Yes!"
+        "4", "Python"  -> "Yes!"
+        else -> "Unknown number"
     }
+
+    println(result)
+}
 
 
 fun main() {

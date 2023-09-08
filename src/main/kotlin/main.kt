@@ -1,17 +1,16 @@
 import Kekod.Boo
 import java.util.*
 
+fun main(){
+    val (n1) = readln().split(" ")
 
-fun main() {
-    val a = readln().toInt()
-    val b = readln().toInt()
+    val n = n1.toInt()
 
-    println(if (a == b) {
-        "a equal b"
-    } else if (a > b) {
-        "a is greater than b"
-    } else {
-        "a is less than b"
-    })
+
+    when (n) {
+        0 -> println("n is zero")
+        in 1..10 -> println("n is between 1 and 10 (inclusive)")
+        in 25..30 -> println("n is between 25 and 30 (inclusive)")
+        else -> println("n is outside a range")
+    }
 }
-
