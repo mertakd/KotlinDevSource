@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="control structures">
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="ref">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlStructures/JumpsAndReturns/JumpsAndReturns.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlStructures/JumpsAndReturns/JumpsAndReturnsQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Delegate/BasicDelegate/Delegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Delegate/BasicDelegate/Delegate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/23_Reflection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod/Classes/23_Reflection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/JetBrainsAcademy/JumpsAndReturns/JumpAndReturnsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlStructures/ForLoopAndRanges/ForLoopAndRangesQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlStructures/ForLoopAndRanges/ForLoopAndRangesQuiz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JumpsAndReturns/jumpAndReturns.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +69,9 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DelegateKt">
+  <component name="RunManager" selected="Kotlin.JumpsAndReturnsQuizKt">
     <configuration name="DelegateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Delegate.BasicDelegate.DelegateKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForLoopAndRangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ControlStructures.ForLoopAndRanges.ForLoopAndRangesKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,15 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileLoopQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ControlStructures.WhileLoops.WhileLoopQuizKt" />
+    <configuration name="JumpsAndReturnsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ControlStructures.JumpsAndReturns.JumpsAndReturnsKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileLoopsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ControlStructures.WhileLoops.WhileLoopsKt" />
+    <configuration name="JumpsAndReturnsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ControlStructures.JumpsAndReturns.JumpsAndReturnsQuizKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.DelegateKt" />
+        <item itemvalue="Kotlin.JumpsAndReturnsQuizKt" />
+        <item itemvalue="Kotlin.JumpsAndReturnsKt" />
         <item itemvalue="Kotlin.ForLoopAndRangesQuizKt" />
-        <item itemvalue="Kotlin.ForLoopAndRangesKt" />
-        <item itemvalue="Kotlin.WhileLoopQuizKt" />
-        <item itemvalue="Kotlin.WhileLoopsKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.DelegateKt" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +251,9 @@
       <workItem from="1693941638208" duration="8260000" />
       <workItem from="1694007836895" duration="12102000" />
       <workItem from="1694091226181" duration="31532000" />
-      <workItem from="1694174627591" duration="6476000" />
+      <workItem from="1694174627591" duration="6914000" />
+      <workItem from="1694214118255" duration="3470000" />
+      <workItem from="1694262641143" duration="10146000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -584,15 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00073" summary="control structures">
+    <task id="LOCAL-00074" summary="ref">
       <option name="closed" value="true" />
-      <created>1694131308780</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
+      <created>1694198405374</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
       <option name="project" value="LOCAL" />
-      <updated>1694131308780</updated>
+      <updated>1694198405376</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +618,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="inheritance jetbrains" />
     <MESSAGE value="secondery constructor" />
     <MESSAGE value="inheritance and interface" />
     <MESSAGE value="to string method" />
@@ -636,7 +642,8 @@
     <MESSAGE value="main" />
     <MESSAGE value="if expression" />
     <MESSAGE value="control structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="control structures" />
+    <MESSAGE value="ref" />
+    <option name="LAST_COMMIT_MESSAGE" value="ref" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1120,41 +1127,6 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloadingQuiz.kt</url>
           <line>20</line>
           <option name="timeStamp" value="623" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/main.kt</url>
-          <line>4</line>
-          <option name="timeStamp" value="682" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/main.kt</url>
-          <line>6</line>
-          <option name="timeStamp" value="683" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/main.kt</url>
-          <line>15</line>
-          <option name="timeStamp" value="690" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/main.kt</url>
-          <line>9</line>
-          <option name="timeStamp" value="701" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/main.kt</url>
-          <line>11</line>
-          <option name="timeStamp" value="702" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/main.kt</url>
-          <line>12</line>
-          <option name="timeStamp" value="703" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/main.kt</url>
-          <line>13</line>
-          <option name="timeStamp" value="704" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>

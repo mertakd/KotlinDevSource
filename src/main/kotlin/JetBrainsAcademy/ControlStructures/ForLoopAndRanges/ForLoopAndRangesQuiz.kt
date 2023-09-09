@@ -15,7 +15,7 @@ fun main1() {
 
 
 // Quiz 2
-fun main2a() {
+fun main2() {
     val a = readLine()!!.toInt()
     val b = readLine()!!.toInt()
     val n = readLine()!!.toInt()
@@ -32,7 +32,7 @@ fun main2a() {
     //Bu tür bir ifade, bir sayının başka bir sayıya tam bölünüp bölünmediğini kontrol etmek için kullanılır.
 }
 fun mainCount() {
-    val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 5, 8, 9, 10)
 
     // 5 sayısının listede kaç defa geçtiğini hesapla
     val countOf5 = numbers.count { it == 5 }
@@ -150,7 +150,7 @@ fun main5() {
 
 
 // Quiz 6
-fun main6() {
+fun main6a() {
     val n = readLine()?.toIntOrNull() ?: return
     var sum = 0
 
@@ -160,6 +160,18 @@ fun main6() {
     }
 
     println(sum)
+}
+
+fun main6b() {
+    print(List(readln().toInt()) { readln().toInt() }.sum())
+}
+
+fun main6c() {
+    var x = 0
+    repeat(readLine()!!.toInt()) {
+        x += readLine()!!.toInt()
+    }
+    println(x)
 }
 
 
@@ -225,7 +237,7 @@ fun main10() {
 
 
 //Quiz 11
-fun main() {
+fun main11() {
 
     val count = readLine()!!.toInt()
     var num = readLine()!!.toInt()
@@ -241,6 +253,53 @@ fun main() {
     println(condition)
 
 }
+
+
+
+
+//Quiz 12
+fun main12() {
+    val n = readLine()?.toIntOrNull() ?: return
+    var isSorted = true
+    var previousNumber = Int.MIN_VALUE
+
+    for (i in 1..n) {
+        val number = readLine()?.toIntOrNull() ?: return
+        if (number < previousNumber) {
+            isSorted = false
+            break
+        }
+        previousNumber = number
+    }
+
+    if (isSorted) {
+        println("YES")
+    } else {
+        println("NO")
+    }
+}
+
+
+
+
+// Quiz 13
+fun main() {
+    val count = readLine()!!.toInt()
+
+    var max1 = 0
+    var max2 = 0
+
+    for (i in 1..count) {
+        val number = readLine()!!.toInt()
+
+        if (number > max1 || number > max2) {
+            if (max1 > max2) max2 = number else max1 = number
+        }
+    }
+
+    println(if (max2 == 0) max1 else max1 * max2)
+}
+
 
 
 

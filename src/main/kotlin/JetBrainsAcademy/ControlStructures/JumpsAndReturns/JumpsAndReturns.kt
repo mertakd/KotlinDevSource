@@ -1,10 +1,22 @@
-package JetBrainsAcademy.JumpsAndReturns
+package JetBrainsAcademy.ControlStructures.JumpsAndReturns
+
 
 /*
 *Kotlin'de bulunan tüm yapısal atlama ifadeleri:break,return,continue
 * Which keyword allows jumping out of both a loop and a function at the same time?  return */
 
-fun main1() {
+
+
+/*Break
+* "break" ifadesi, en yakın iç içe geçmiş döngüyü sonlandırmak için kullanılır. Eğer belirli bir koşul gerçekleşirse, döngüden çıkmak için kendi koşullarınızı belirleyebilirsiniz.
+* Bu durumda, "Döngüden önce" ve "Döngüden sonra" ifadeleri, döngü ile ilgili olmayan ve yalnızca döngü dışında çalışan kodlardır. "break" ifadesi yalnızca en yakın iç içe geçmiş döngüyü sonlandırır ve döngüden sonra gelen kodları etkilemez.
+* Yani, "break" ifadesi yalnızca döngüyü kırar ve döngüden sonraki kod satırlarına geçer. Döngü öncesindeki veya sonrasındaki kodlar, döngüden bağımsız olarak çalışır ve "break" ifadesinden etkilenmez.
+* Faydaları:
+*Belirli bir koşul gerçekleştiğinde bir döngüyü sonlandırmak istediğinizde.
+*İlgilenmediğiniz veya işlem yapmak istemediğiniz durumları atlamak için. Örneğin, bir liste veya dizi üzerinde dolaşırken belirli bir koşula sahip elemanları geçmek isteyebilirsiniz.
+*Performans optimizasyonu için. Örneğin, bir arama işlemini gerçekleştirirken, bulunan bir sonuç olduğunda geri kalan aramalara gerek olmadığını anlarsınız ve döngüyü sonlandırabilirsiniz.
+* break ve continue farkı: continue ifadesi bir döngü içindeki iterasyonu atlamak için kullanılırken, break ifadesi döngüyü tamamen sonlandırmak için kullanılır.*/
+fun main11() {
 
     println("Before the loop")
     for (i in 1..10){
@@ -18,38 +30,35 @@ fun main1() {
     println("After the loop")
 
 }
-/*Break
-* "break" ifadesi, en yakın iç içe geçmiş döngüyü sonlandırmak için kullanılır. Eğer belirli bir koşul gerçekleşirse, döngüden çıkmak için kendi koşullarınızı belirleyebilirsiniz.
-* Bu durumda, "Döngüden önce" ve "Döngüden sonra" ifadeleri, döngü ile ilgili olmayan ve yalnızca döngü dışında çalışan kodlardır. "break" ifadesi yalnızca en yakın iç içe geçmiş döngüyü sonlandırır ve döngüden sonra gelen kodları etkilemez.
-* Yani, "break" ifadesi yalnızca döngüyü kırar ve döngüden sonraki kod satırlarına geçer. Döngü öncesindeki veya sonrasındaki kodlar, döngüden bağımsız olarak çalışır ve "break" ifadesinden etkilenmez.
-* Faydaları:
-*Belirli bir koşul gerçekleştiğinde bir döngüyü sonlandırmak istediğinizde.
-*İlgilenmediğiniz veya işlem yapmak istemediğiniz durumları atlamak için. Örneğin, bir liste veya dizi üzerinde dolaşırken belirli bir koşula sahip elemanları geçmek isteyebilirsiniz.
-*Performans optimizasyonu için. Örneğin, bir arama işlemini gerçekleştirirken, bulunan bir sonuç olduğunda geri kalan aramalara gerek olmadığını anlarsınız ve döngüyü sonlandırabilirsiniz.
-* break ve continue farkı: continue ifadesi bir döngü içindeki iterasyonu atlamak için kullanılırken, break ifadesi döngüyü tamamen sonlandırmak için kullanılır.*/
 
 
 
 
 
 
+// Bir yinelemeyi yoksaymanız gerektiğinde continue kullanmalısınız.
+// continue break gibi döngüden çıkmıyor sadece yenilemeye devam ediyor
 
-fun main2() {
+fun main22() {
 
     var result = ""
     for (i in "hello world") {
-        if (i == 'o') continue
+        if (i == 'o'){
+            continue
+        }
         result += i
     }
     println(result)
 
 }
 
-fun main3() {
+fun main33() {
 
     var result = ""
     for (i in "hello world"){
-        if (i == 'o') break
+        if (i == 'o'){
+            break
+        }
         result += i
     }
     println(result)
@@ -71,7 +80,7 @@ fun main3() {
 
 
 //INNER LOOP  AND  structural jump
-fun main4() {
+fun main44() {
 
     for (i in 1..4) {
         for (j in 1..4) {
@@ -83,9 +92,7 @@ fun main4() {
     }
 
 }
-/*
-* Gördüğünüz gibi, ara ve devam et yalnızca bir döngüyü sonlandırır. Ancak dış döngüyü sonlandırmak istersek ne yapmalıyız? Bu durumda etiketleri kullanmalısınız. Onlara bir göz atalım.
-* */
+
 
 
 
@@ -94,7 +101,13 @@ fun main4() {
 
 
 // Labels
-fun main5() {
+
+/*
+* Gördüğünüz gibi, break ve continue yalnızca bir döngüyü sonlandırır. Ancak dış döngüyü sonlandırmak istersek ne yapmalıyız? Bu durumda etiketleri kullanmalısınız. Onlara bir göz atalım.
+* Yani etiketler sadece iç döngüyü değil dış döngüyü de kırmamıza yardımcı olur.
+* */
+
+fun main55() {
 
     loop@ for (i in 1..3) {
         for (j in 1..3) {
@@ -110,7 +123,7 @@ fun main5() {
 
 
 
-fun main6() {
+fun main65() {
 
     loop@ for (i in 1..3) {
         for (j in 1..3) {
@@ -133,7 +146,7 @@ fun main6() {
 
 
 //When and structural jump expressions
-fun main7() {
+fun main75() {
 
     //kotlin 1.4 öncesi
 
@@ -148,7 +161,7 @@ fun main7() {
 }
 
 
-fun main8() {
+fun main85() {
 
     //kotlin 1.4 sonrası daha kolay
 
@@ -166,13 +179,48 @@ fun main8() {
 
 
 
+// RETURN
+//return deyimi hemen işlevin sonucunu döndürür ve return anahtar sözcüğünden sonraki kod çalıştırılmaz.
+//Etiket olmadan, return ifadesi sonucu en yakın çevreleyen fonksiyona döndürmemizi sağlar.
+//Herhangi bir nedenle döngüden çıkıp kalan döngü kodunu atlamak veya mevcut işlevden çıkmak istersek bu gerçekten yararlı olabilir.
+
+fun foo() {
+    val number = intArrayOf(1, 2, 3, 4, 5)
+    for (it in number) {
+        if (it == 3){
+            return // yerel olmayan(non-local) doğrudan foo() çağırıcısına dönüş(return)
+        }
+        print(it)
+    }
+    println("this point is unreachable")
+}
+
+fun main95() {
+    foo() // calling foo()
+    println()
+    println("foo() is over")
+    for (i in 1..10) {
+        for (j in 1..10) {
+            println("i = $i, j = $j")
+            if (j == 3) return // local return to the caller of main() /  main() çağırıcısına yerel dönüş
+        }
+        println("this point is unreachable")
+    }
+    println("this point is unreachable")
+}
+
+
+
+
+
+
 
 
 
 
 
 //The Return Statement
-fun foo() {
+fun foo95() {
     val number = intArrayOf(1, 2, 3, 4, 5)
     for (it in number) {
         if (it == 3) return // non-local return directly to the caller of foo()
@@ -181,8 +229,8 @@ fun foo() {
     println("this point is unreachable")
 }
 
-fun main() {
-    foo() // calling foo()
+fun main105() {
+    //foo() // calling foo()
     println()
     println("foo() is over")
     for (i in 1..10) {
