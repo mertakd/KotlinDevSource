@@ -1,4 +1,6 @@
-package JetBrainsAcademy.Coffee
+package JetBrainsAcademy.Projects.CoffeeMachine
+
+
 
 fun main() {
     println("Starting to make a coffee")

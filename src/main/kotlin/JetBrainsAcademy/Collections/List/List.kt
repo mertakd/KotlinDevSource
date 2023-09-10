@@ -2,6 +2,7 @@ package JetBrainsAcademy.Collections.List
 
 fun main1() {
 
+    //Özetlemek gerekirse: İçeriğin değişmesini istemediğinizde Liste'yi kullanın.
 
     /*val cars = listOf<String>("BMW", "Honda", "Mercedes")
     cars[0] = "Renault" // Error
@@ -39,3 +40,11 @@ fun solution(numbers: List<Int>): Int {
 
 fun solution2(numbers: List<Int>): Int = numbers.sum()
 val solution3: (numbers: List<Int>) -> Int = { it.sum() }
+
+
+
+/*
+* val partyList = listOf("Fred", "Emma", "Isabella", "James", "Olivia")
+    val indexOfEmma = partyList.indexOf("Olivia")
+    println("Emma'nın indeksi: $indexOfEmma")
+    * 4. index de*/

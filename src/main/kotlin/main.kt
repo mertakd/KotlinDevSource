@@ -1,11 +1,4 @@
-import Kekod.Boo
-import java.util.*
+package JetBrainsAcademy.Projects.CoffeeMachine
 
-fun main() {
 
-    var result = ""
-    for (i in 1..5){
-        result += "Loop iteration: $i\n"
-    }
-    println(result)
-}
+

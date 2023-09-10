@@ -1,4 +1,6 @@
-package JetBrainsAcademy.Coffee
+package JetBrainsAcademy.Projects.CoffeeMachine
+
+
 
 // Global variables representing the coffee machine's state
 var money = 550 // Initial amount of money
