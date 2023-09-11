@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="jumps and returns">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Projects/CoffeeMachine/Coffee1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Projects/CoffeeMachine/Coffee2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Projects/CoffeeMachine/Coffee3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Projects/CoffeeMachine/CoffeeMachineOtherSolutions/Coffee2B.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="coffee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Coffee/Coffee1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Coffee/Coffee2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/List.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/ListQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/List/ListQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/MutableList/MutableListQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/MutableList/MutableListQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
@@ -73,7 +64,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MutableListQuizKt">
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="JumpsAndReturnsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ControlStructures.JumpsAndReturns.JumpsAndReturnsQuizKt" />
       <module name="KotlinDevSource" />
@@ -111,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MutableListQuizKt" />
         <item itemvalue="Kotlin.ListQuizKt" />
-        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.JumpsAndReturnsQuizKt" />
       </list>
@@ -260,6 +251,8 @@
       <workItem from="1694262641143" duration="10846000" />
       <workItem from="1694293636109" duration="3884000" />
       <workItem from="1694303896234" duration="7051000" />
+      <workItem from="1694378289350" duration="1513000" />
+      <workItem from="1694454205301" duration="3979000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -597,15 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00075" summary="jumps and returns">
+    <task id="LOCAL-00076" summary="coffee">
       <option name="closed" value="true" />
-      <created>1694284786401</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
+      <created>1694378364199</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
       <option name="project" value="LOCAL" />
-      <updated>1694284786401</updated>
+      <updated>1694378364200</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +617,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="inheritance and interface" />
     <MESSAGE value="to string method" />
     <MESSAGE value="inline class" />
     <MESSAGE value="singleton" />
@@ -649,26 +641,12 @@
     <MESSAGE value="control structures" />
     <MESSAGE value="ref" />
     <MESSAGE value="jumps and returns" />
-    <option name="LAST_COMMIT_MESSAGE" value="jumps and returns" />
+    <MESSAGE value="coffee" />
+    <option name="LAST_COMMIT_MESSAGE" value="coffee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>139</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>140</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>141</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>
           <line>8</line>
@@ -885,76 +863,6 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>148</line>
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>150</line>
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>151</line>
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>152</line>
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>153</line>
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>154</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>155</line>
-          <option name="timeStamp" value="176" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>156</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>157</line>
-          <option name="timeStamp" value="179" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>158</line>
-          <option name="timeStamp" value="180" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>159</line>
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>160</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>163</line>
-          <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Zookeeper/Zookeeper.kt</url>
-          <line>164</line>
-          <option name="timeStamp" value="184" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/Task1Security.kt</url>
           <line>3</line>
           <option name="timeStamp" value="393" />
@@ -1133,6 +1041,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloadingQuiz.kt</url>
           <line>20</line>
           <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/MutableList/MutableListQuiz.kt</url>
+          <line>138</line>
+          <option name="timeStamp" value="642" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>

@@ -109,9 +109,45 @@ fun main4a() {
 
 
 // Quiz 5
-fun solution5(first: List<Int>, second: List<Int>): MutableList<Int> {
-
+fun solutions5a(first: List<Int>, second: List<Int>): MutableList<Int>{
+    return (first + second).toMutableList()
 }
+fun main5a() {
+    val list = listOf(2,4,6,8)
+    val list2 = listOf(7,9,2,1)
+    //val result = solutions5(list,list2)
+    //println(result)
+}
+
+
+
+
+
+// Quiz 6
+fun solution6a(strings: MutableList<String>, str: String): MutableList<String> {
+    for (i in strings.indices) {
+        if (strings[i] == str) {
+            strings[i] = "Banana"
+        }
+    }
+    return strings
+}
+
+fun solution(strings: MutableList<String>, str: String): MutableList<String> {
+    strings.replaceAll { if (it == str) "Banana" else it }
+    return strings
+}
+
+
+fun main() {
+    val strings = mutableListOf("Sometimes", "you", "have", "to", "shake", "up", "your", "life")
+    val strToReplace = "shake"
+
+    val result = solution(strings, strToReplace)
+
+    println(result)
+}
+
 
 
 
