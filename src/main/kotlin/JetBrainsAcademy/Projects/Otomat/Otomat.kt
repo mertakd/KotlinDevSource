@@ -1,37 +1,4 @@
-package JetBrainsAcademy.Projects.CoffeeMachine
-import java.util.Scanner
-
-
-/*data class Automat(
-    val name: String,
-    val ml: String,
-    val price: String,
-    val description: String
-)
-
-
-fun automatList(){
-
-    val automatList = mutableListOf<Automat>()
-
-    val fanta = automatList.add(Automat("Fanta", "250 ml", "5.000 TL","Gazlı içecek, demir kutu, şekerli. "))
-    val cola = automatList.add(Automat("Coca Cola", "1 lt", "10.00 TL","Gazlı içecek, plastik kutu, şekerli. "))
-    val didi = automatList.add(Automat("Coca Cola", "1 lt", "10.00 TL","Gazlı içecek, plastik kutu, şekerli. "))
-
-
-    val canga = automatList.add(Automat("Canga", "45g", "1.16 TL","Yer fıstığı, şeker, tam yağlı süt tozu, invert şeker şurubu, kakao yağ 532.Okcal"))
-    val maximus = automatList.add(Automat("Maximus", "50g", "2.25 TL","Şeker, İnvert şeker şurubu, Yer fıstığı, 480 Okcal"))
-
-    automatList.forEach {
-
-        println("Name: ${it.name}, ML: ${it.ml}, Description: ${it.description}")
-    }
-}*/
-
-
-
-
-
+package JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Projects.Otomat
 
 // Ürün sınıfı
 data class Urun(val ad: String, val boyut: String, val fiyat: Double, val aciklama: String)
@@ -120,10 +87,3 @@ fun main() {
         println("Geçersiz ürün seçimi. Lütfen geçerli bir ürün numarası girin.")
     }
 }
-
-
-
-
-
-
-

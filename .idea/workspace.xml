@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="coffee">
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="otomat">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Set/Set.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Set/SetQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Projects/Otomat/Otomat.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/MutableList/MutableListQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/MutableList/MutableListQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,14 +66,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
-    <configuration name="JumpsAndReturnsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.ControlStructures.JumpsAndReturns.JumpsAndReturnsQuizKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.SetQuizKt">
     <configuration name="ListQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Collections.List.ListQuizKt" />
       <module name="KotlinDevSource" />
@@ -100,13 +95,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Collections.Set.SetQuizKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SetQuizKt" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MutableListQuizKt" />
         <item itemvalue="Kotlin.ListQuizKt" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.JumpsAndReturnsQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +254,9 @@
       <workItem from="1694293636109" duration="3884000" />
       <workItem from="1694303896234" duration="7051000" />
       <workItem from="1694378289350" duration="1513000" />
-      <workItem from="1694454205301" duration="3979000" />
+      <workItem from="1694454205301" duration="6246000" />
+      <workItem from="1694461003103" duration="39000" />
+      <workItem from="1694545423734" duration="2780000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -590,15 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00076" summary="coffee">
+    <task id="LOCAL-00077" summary="otomat">
       <option name="closed" value="true" />
-      <created>1694378364199</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
+      <created>1694458835252</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
       <option name="project" value="LOCAL" />
-      <updated>1694378364200</updated>
+      <updated>1694458835253</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +621,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="to string method" />
     <MESSAGE value="inline class" />
     <MESSAGE value="singleton" />
     <MESSAGE value="delegate properties" />
@@ -642,7 +645,8 @@
     <MESSAGE value="ref" />
     <MESSAGE value="jumps and returns" />
     <MESSAGE value="coffee" />
-    <option name="LAST_COMMIT_MESSAGE" value="coffee" />
+    <MESSAGE value="otomat" />
+    <option name="LAST_COMMIT_MESSAGE" value="otomat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
