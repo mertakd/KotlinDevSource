@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="otomat">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Set/Set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Set/SetQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Projects/Otomat/Otomat.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="set">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Set/MutableSet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Set/MutableSetQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SetQuizKt">
+  <component name="RunManager" selected="Kotlin.MutableSetQuizKt">
     <configuration name="ListQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Collections.List.ListQuizKt" />
       <module name="KotlinDevSource" />
@@ -81,15 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="MutableListQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Collections.MutableList.MutableListQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableListQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Collections.MutableList.MutableListQuizKt" />
+    <configuration name="MutableSetQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Collections.Set.MutableSetQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MutableSetQuizKt" />
         <item itemvalue="Kotlin.SetQuizKt" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MutableListQuizKt" />
         <item itemvalue="Kotlin.ListQuizKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +254,8 @@
       <workItem from="1694378289350" duration="1513000" />
       <workItem from="1694454205301" duration="6246000" />
       <workItem from="1694461003103" duration="39000" />
-      <workItem from="1694545423734" duration="2780000" />
+      <workItem from="1694545423734" duration="3106000" />
+      <workItem from="1694634679085" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -594,15 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00077" summary="otomat">
+    <task id="LOCAL-00078" summary="set">
       <option name="closed" value="true" />
-      <created>1694458835252</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
+      <created>1694549179102</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
       <option name="project" value="LOCAL" />
-      <updated>1694458835253</updated>
+      <updated>1694549179103</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +620,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="inline class" />
     <MESSAGE value="singleton" />
     <MESSAGE value="delegate properties" />
     <MESSAGE value="observable ke" />
@@ -646,7 +644,8 @@
     <MESSAGE value="jumps and returns" />
     <MESSAGE value="coffee" />
     <MESSAGE value="otomat" />
-    <option name="LAST_COMMIT_MESSAGE" value="otomat" />
+    <MESSAGE value="set" />
+    <option name="LAST_COMMIT_MESSAGE" value="set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
