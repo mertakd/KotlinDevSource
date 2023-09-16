@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="mutable set">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/ExtensionFunction5.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="ex">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Atom/FunctionalProgramming/Lambdas/Lambdas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/InlineFunctions9.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Filtering/Filtering.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Filtering/FilteringQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/LambdaWithReceiver/LambdaWithReceiver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/ExtensionFunction/ExtensionFunctionQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/ExtensionFunction/ExtensionFunctionQuiz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/LambdaExpressions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/LambdaExpressions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/deneme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,37 +71,37 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MutableSetQuizKt">
-    <configuration name="ListQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Collections.List.ListQuizKt" />
+  <component name="RunManager" selected="Kotlin.LambdaWithReceiverKt">
+    <configuration name="FilteringQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Collections.Filtering.FilteringQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="LambdaExpressionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.LambdaExpressions.LambdaExpressionsKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaWithReceiverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.ControlFlow.LambdaWithReceiver.LambdaWithReceiverKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.Atom.FunctionalProgramming.Lambdas.LambdasKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.MainKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MutableListQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Collections.MutableList.MutableListQuizKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MutableSetQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Collections.Set.MutableSetQuizKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Collections.Set.SetQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MutableSetQuizKt" />
-        <item itemvalue="Kotlin.SetQuizKt" />
-        <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MutableListQuizKt" />
-        <item itemvalue="Kotlin.ListQuizKt" />
+        <item itemvalue="Kotlin.LambdaWithReceiverKt" />
+        <item itemvalue="Kotlin.LambdasKt" />
+        <item itemvalue="Kotlin.LambdaExpressionsKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.FilteringQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +263,8 @@
       <workItem from="1694461003103" duration="39000" />
       <workItem from="1694545423734" duration="3106000" />
       <workItem from="1694634679085" duration="1660000" />
-      <workItem from="1694779005870" duration="1224000" />
+      <workItem from="1694779005870" duration="1842000" />
+      <workItem from="1694840473088" duration="16377000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -593,15 +602,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00079" summary="mutable set">
+    <task id="LOCAL-00080" summary="ex">
       <option name="closed" value="true" />
-      <created>1694636329136</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
+      <created>1694800017920</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
       <option name="project" value="LOCAL" />
-      <updated>1694636329137</updated>
+      <updated>1694800017921</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="delegate properties" />
     <MESSAGE value="observable ke" />
     <MESSAGE value="reflection ke" />
     <MESSAGE value="object" />
@@ -645,7 +653,8 @@
     <MESSAGE value="otomat" />
     <MESSAGE value="set" />
     <MESSAGE value="mutable set" />
-    <option name="LAST_COMMIT_MESSAGE" value="mutable set" />
+    <MESSAGE value="ex" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

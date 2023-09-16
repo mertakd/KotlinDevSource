@@ -85,11 +85,25 @@ fun main3A() {
 
 }
 
+//Quiz1
+fun main1k() {
+
+    fun(number: Int) = number.toString()
+    fun(number:Int): String{return number.toString()}
+    {number: Int -> number.toString()}
+}
+
+
+
+
+
+
+
 
 
 
 //QUİZ
-fun main5() {
+fun main() {
 
     val result1 = lambda(2, 5)   // 2 * 3 * 4 * 5 = 120
     val result2 = lambda(3, 3)   // Sonuç 3 veya herhangi bir sınır olabilir (3 * 1 = 3)
@@ -100,13 +114,29 @@ fun main5() {
 }
 
 
-val lambda: (Long, Long) -> Long = { left, right ->
+val lambda: (Long, Long) -> Long = {left, right ->
+
     var result = 1L
-    for (number in left..right) {
+    for (number in left..right){
         result *= number
     }
     result
 }
+
+val lambda1b: (Long, Long) -> Long = {a, b -> (a..b).reduce(Long::times)}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 fun main2() {
@@ -119,14 +149,14 @@ fun main2() {
 
 }
 
-
-
-val lambda2: (Int, Int) -> Int = { a, b ->
-    if (a > b) {
+//Quiz
+val lambda2: (Int,Int) -> Int = {a, b ->
+    if (a > b){
         a
-    } else {
+    }else{
         b
     }
+
 }
 
 
@@ -143,6 +173,26 @@ fun main3a() {
     val lambda5: (Int, Int) -> Int = {a, b -> if (a >= b) a else b}
     println(lambda5)
 }
+
+val lambda2c: (Int, Int) -> Int = ::maxOf
+val lambda2d: (Int, Int) -> Int = {a: Int, b: Int -> maxOf(a, b) }
+
+
+
+
+
+
+
+
+
+
+//Quiz
+fun main33() {
+    //val lambda: (Int) -> Int = { a * it * it + b * it + c }
+}
+
+
+
 
 
 
@@ -180,7 +230,7 @@ fun fizzbuzz(from: Int, to: Int, transformation: (Int) -> String) {
     }
 }
 
-fun main() {
+fun main23423() {
 
     fizzbuzz(1, 100) { number ->
         if (number % 15 == 0) {
@@ -195,5 +245,12 @@ fun main() {
         number.toString()
     }
 }
+
+
+
+
+
+
+
 
 
