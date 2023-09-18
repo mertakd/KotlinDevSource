@@ -4,16 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="ex">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Atom/FunctionalProgramming/Lambdas/Lambdas.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Andromeda/InlineFunctions9.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Filtering/Filtering.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Filtering/FilteringQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/LambdaWithReceiver/LambdaWithReceiver.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="lambda, extensionfun">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Andromeda/Generics/Generics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Atom/FunctionalProgramming/HigherOrderFunctions/HighOrderFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/AdvancedLambdaExpressions/AdvancedLambdaExpressions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/ArrayExceptions/ArrayExceptionQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/ArrayExceptions/ArrayExceptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/CatchingSupertype/CatchingSuperTypeQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/CatchingSupertype/CatchingSupertype.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/CreatingCustomExceptions/CreatingCustomExceptionQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/CreatingCustomExceptions/CreatingCustomExceptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/ExceptionsAndResources/ExceptionAndResources.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/ExceptionsAndResources/ExceptionsAndResourcesQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/StackTrace/StackTrace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/StackTrace/StackTraceQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/TamingExceptions/TamingExceptionQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/TamingExceptions/TamingExceptions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/TryCatchFinallyStatement/TryCatchFinallyStatement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/TryCatchFinallyStatement/TryCatchFinallyStatementQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/TryCatchStatement/TryCatchStatement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/TryCatchStatement/TryCatchStatementQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/TryWithResources/TryWithResources.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/TryWithResources/TryWithResourcesQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/Exceptions/WhatException/WhatException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/InlineFunctions/InlineFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/LambdaWithReceiver/LabmdaWithReceiverQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/ExtensionFunction/ExtensionFunctionQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/ExtensionFunction/ExtensionFunctionQuiz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/LambdaExpressions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/LambdaExpressions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/deneme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$addInts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$addInts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$add$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$add$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$addFive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$addFive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$add2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$add2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$calculation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$calculation$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$myLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$myLambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main5$fahrenheit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main5$fahrenheit$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main5$fahrenheit2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main5$fahrenheit2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Atom/FunctionalProgramming/Lambdas/Lambdas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Atom/FunctionalProgramming/Lambdas/Lambdas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/LambdaWithReceiver/LambdaWithReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/ControlFlow/LambdaWithReceiver/LambdaWithReceiver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,37 +113,37 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LambdaWithReceiverKt">
-    <configuration name="FilteringQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Collections.Filtering.FilteringQuizKt" />
+  <component name="RunManager" selected="Kotlin.ExceptionAndResourcesKt">
+    <configuration name="ExceptionAndResourcesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.ControlFlow.Exceptions.ExceptionsAndResources.ExceptionAndResourcesKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExpressionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.LambdaExpressions.LambdaExpressionsKt" />
+    <configuration name="StackTraceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.ControlFlow.Exceptions.StackTrace.StackTraceKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaWithReceiverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.ControlFlow.LambdaWithReceiver.LambdaWithReceiverKt" />
+    <configuration name="StackTraceQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.ControlFlow.Exceptions.StackTrace.StackTraceQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.Atom.FunctionalProgramming.Lambdas.LambdasKt" />
+    <configuration name="TryWithResourcesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.ControlFlow.Exceptions.TryWithResources.TryWithResourcesKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.MainKt" />
+    <configuration name="TryWithResourcesQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.ControlFlow.Exceptions.TryWithResources.TryWithResourcesQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.LambdaWithReceiverKt" />
-        <item itemvalue="Kotlin.LambdasKt" />
-        <item itemvalue="Kotlin.LambdaExpressionsKt" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.FilteringQuizKt" />
+        <item itemvalue="Kotlin.ExceptionAndResourcesKt" />
+        <item itemvalue="Kotlin.TryWithResourcesQuizKt" />
+        <item itemvalue="Kotlin.TryWithResourcesKt" />
+        <item itemvalue="Kotlin.StackTraceQuizKt" />
+        <item itemvalue="Kotlin.StackTraceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +306,8 @@
       <workItem from="1694545423734" duration="3106000" />
       <workItem from="1694634679085" duration="1660000" />
       <workItem from="1694779005870" duration="1842000" />
-      <workItem from="1694840473088" duration="16377000" />
+      <workItem from="1694840473088" duration="17014000" />
+      <workItem from="1694935085633" duration="43327000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -602,15 +645,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00080" summary="ex">
+    <task id="LOCAL-00081" summary="lambda, extensionfun">
       <option name="closed" value="true" />
-      <created>1694800017920</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
+      <created>1694882363451</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
       <option name="project" value="LOCAL" />
-      <updated>1694800017921</updated>
+      <updated>1694882363452</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +672,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="observable ke" />
     <MESSAGE value="reflection ke" />
     <MESSAGE value="object" />
     <MESSAGE value="constructor jet" />
@@ -654,7 +696,8 @@
     <MESSAGE value="set" />
     <MESSAGE value="mutable set" />
     <MESSAGE value="ex" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex" />
+    <MESSAGE value="lambda, extensionfun" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda, extensionfun" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1058,6 +1101,24 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/MutableList/MutableListQuiz.kt</url>
           <line>138</line>
           <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>48</line>
+          <option name="timeStamp" value="667" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>50</line>
+          <option name="timeStamp" value="668" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
+          <line>53</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="669" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>

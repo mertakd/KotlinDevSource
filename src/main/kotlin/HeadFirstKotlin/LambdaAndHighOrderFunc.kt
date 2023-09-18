@@ -2,9 +2,10 @@ package HeadFirstKotlin
 
 fun main1() {
 
-    { x: Int -> x + 5}
     fun addFive(x: Int) = x + 5
+    {x: Int -> x + 5}
 
+    //Ancak lambdaların isimleri yoktur, dolayısıyla anonimdirler.
     { x:Int, y:Int -> x + y}
 }
 
@@ -42,7 +43,7 @@ fun main2() {
 
 
 //INVOKING
-fun main3() {
+fun main() {
 
 
     val result = addInts.invoke(6, 7)
@@ -51,6 +52,7 @@ fun main3() {
 }
 
 val addInts = { x: Int, y: Int -> x + y }
+// bu lambda da hesaplama işlemi gerçekleşiyor
 /*
 * Bu, { x: Int, y: Int -> x y } değerinde bir lambda oluşturur. addInts adlı yeni bir değişkene lambdaya bir referance atanır.
 *Bu, eklentiler tarafından başvurulan lambdayı çağırır ve 6 ve 7 değerlerini iletir. 6, lambdanın x parametresine ve 7, lambdanın y parametresine gelir.
@@ -109,6 +111,26 @@ fun main4() {
 
 
 
+}
+
+fun mainQuiz() {
+
+    val lam1 = {x: Int -> x}
+    println(lam1(29 + 6))
+
+    val lam2: (Double) -> Double
+    lam2 = {(it * 2) + 5}
+    println(lam2)
+
+    val lam3: (Double, Double) -> Unit
+    lam3 = { x,y -> println(x + y) }
+    println(lam3)
+
+
+    var lam4 = {y:Int -> (y/2).toDouble()}
+    print(lam4(29))
+    lam4 = {it + 6.3}
+    println(lam4(7))
 }
 
 
@@ -280,7 +302,7 @@ fun main10() {
 //High-Order Fonksiyon ve Lambda İfadeleri Kullanarak
 
 
-fun main() {
+fun main87() {
     val amount = 100.0
 
     val tlFromDollar = convertTo(amount) {it * 26.96}
