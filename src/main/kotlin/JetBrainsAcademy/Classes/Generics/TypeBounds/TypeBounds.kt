@@ -36,6 +36,7 @@ fun main() {
     var listOne: List<Magazine> = listOf();
     var listTwo: List<String> = listOf();
 
+
     /* invoke methods */
     sortByDate(listOne) // OK because Magazine is a subtype of Book
     //sortByDate(listTwo) // Error: String is not a subtype of Book

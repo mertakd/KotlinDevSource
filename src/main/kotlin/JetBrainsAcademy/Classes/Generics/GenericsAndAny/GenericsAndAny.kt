@@ -20,13 +20,13 @@ fun main1() {
     println(stringField)
 
 
-    // non generic
+    // non generic:  doğru cast işlemi yapıyoruz
     val nonGenericInstance: NonGenericClass = NonGenericClass("abc")
     //val str: String = nonGenericInstance.get() // Compile-time error: Type mismatch
     val str: String = nonGenericInstance.get() as String // "abc"
 
 
-    //Hata Durumu
+    //Hata Durumu  yanlış cast işlemi yapıyoruz
     //instance yi stringe çevirdik ama gelen değer integer olduğu için run-time da hata verir.
     val instance: NonGenericClass = NonGenericClass(123)
     val string: String = instance.get() as String // throws java.lang.ClassCastException

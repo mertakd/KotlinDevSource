@@ -21,6 +21,13 @@ class Bookk(name: String)
 
 
 
+
+
+
+
+
+
+
 // Quiz 2
 // don't change Letter and CherryPie!
 class Letter
@@ -110,7 +117,7 @@ class SmartKitchen<T> where T : Cooker, T : Logger {
     }
 }
 
-fun main() {
+fun main45675() {
 
     val microwave = Microwave()
     val multiCooker = MultiCooker()
@@ -123,4 +130,90 @@ fun main() {
 
 
 }
+
+
+
+
+
+
+class Box<T : Animal5> {
+    private var content: T? = null
+
+    fun add(animal: T) {
+        content = animal
+    }
+}
+
+// Don't change the class below
+open class Animal5
+class Cat5 : Animal5()
+
+fun main() {
+    val box = Box<Animal5>()
+    val cat = Cat5()
+    box.add(cat)
+
+
+
+}
+
+
+
+
+
+
+//SÖZEL
+
+//1
+//Milky chance
+//You have a function feedWithMilk(animal: Any). You need to add an upper bound so that feedWithMilk takes only the types which extend Animalas arguments . Choose the right option.
+
+//fun <T : Animal> feedWithMilk(animal : T) { }
+
+
+
+
+//2
+//Multiple bounds
+//You have a generic function doubleTypesTry() which takes List<T> as an argument. Select the correct form where the type T has two upper bounds — the types Type1 and Type2.
+
+//fun <T> doubleTypesTry(list: List<T>) where T: Type1, T : Type2 { }
+
+
+
+
+
+
+
+//3
+//Facts about type bounds
+//Choose the correct statements about type bounds:
+
+//When you use multiple bounds, the first type should be a class or an interface
+//
+//By default, all type parameters are constrained by the type Any?
+
+
+
+
+//4
+//Advantages of type bounds
+//What are the advantages of using type bounds?
+
+//The amount of code can be reduced thanks to type bounds
+//
+//We can restrict type parameters using type bounds
+
+
+
+
+
+//5
+//Definitely non-nullable
+//How do you declare a definitely non-nullable type?
+
+//T & Any
+
+
+
 

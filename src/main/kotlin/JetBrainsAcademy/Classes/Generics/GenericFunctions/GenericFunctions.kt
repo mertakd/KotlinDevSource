@@ -19,6 +19,9 @@ fun main22() {
     var list = listOf("hello", "from", "hyperskill")
     println(calculateLength<String>(list)) //3
     //arguman type belirtilmeli.<String>
+
+    println(calculateLength(list)) // 3
+    //tip çıkarımı da yapar.
 }
 
 
@@ -30,10 +33,30 @@ fun <T,U> multipleDoSomething(t: T, u: U){
 
 
 
+
+
+
+
+interface MyInterface<T>
+
+fun <T, F : MyInterface<T>> genericFun() {}
+
+fun main346345645() {
+    genericFun<_, MyInterface<String>>() // The first T is inferred as String,
+    // because the second T is explicitly defined as String.
+}
+
+
+
+
+
+
+
 // Generic methods
 class NonGenericClass {
+
     fun <T> someGenericMethod(t: T): T {
-        //...//
+
         return t
     }
 }
@@ -56,7 +79,7 @@ fun <T> BiggerBox<T>.changeBoxes() {
     this.value2 = tmp
 }
 
-fun main34() {
+fun main() {
     var box = BiggerBox("hyperskill", "kotlin")
     println("${box.value1} and ${box.value2}")// hyperskill and kotlin
     box.changeBoxes()
@@ -84,7 +107,7 @@ class GenericClass<T>{
 }
 
 
-fun main() {
+fun main9999() {
 
     val genericObject = GenericClass<String>()
 
