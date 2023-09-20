@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="nullable and type system">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/Variance/Variance.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="generic tk">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/Variance/VarianceQuiz.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenerics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenerics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenericsQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/BasicGenerics/BasicGenericsQuiz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericFunctions/GenericFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericFunctions/GenericFunctions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericFunctions/GenericFunctionsQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericFunctions/GenericFunctionsQuiz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericsAndAny/GenericAndAnyQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericsAndAny/GenericAndAnyQuiz.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericsAndAny/GenericsAndAny.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/GenericsAndAny/GenericsAndAny.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBounds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBounds.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBoundsQuiz.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/TypeBounds/TypeBoundsQuiz.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/Variance/Variance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Generics/Variance/Variance.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,23 +64,9 @@
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TypeBoundsQuizKt">
-    <configuration name="BasicGenericsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.BasicGenerics.BasicGenericsQuizKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.VarianceQuizKt">
     <configuration name="GenericAndAnyQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericsAndAny.GenericAndAnyQuizKt" />
-      <module name="KotlinDevSource" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Classes.Generics.GenericFunctions.GenericFunctionsKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,13 +86,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VarianceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Classes.Generics.Variance.VarianceKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VarianceQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Classes.Generics.Variance.VarianceQuizKt" />
+      <module name="KotlinDevSource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.VarianceQuizKt" />
+        <item itemvalue="Kotlin.VarianceKt" />
         <item itemvalue="Kotlin.TypeBoundsQuizKt" />
         <item itemvalue="Kotlin.GenericAndAnyQuizKt" />
         <item itemvalue="Kotlin.GenericFunctionsQuizKt" />
-        <item itemvalue="Kotlin.GenericFunctionsKt" />
-        <item itemvalue="Kotlin.BasicGenericsQuizKt" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +259,8 @@
       <workItem from="1694779005870" duration="1842000" />
       <workItem from="1694840473088" duration="17014000" />
       <workItem from="1694935085633" duration="43392000" />
-      <workItem from="1695116239942" duration="23045000" />
+      <workItem from="1695116239942" duration="24258000" />
+      <workItem from="1695200198795" duration="7358000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -604,15 +598,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00083" summary="nullable and type system">
+    <task id="LOCAL-00084" summary="generic tk">
       <option name="closed" value="true" />
-      <created>1695124123790</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
+      <created>1695164420780</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
       <option name="project" value="LOCAL" />
-      <updated>1695124123790</updated>
+      <updated>1695164420780</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +625,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="constructor jet" />
     <MESSAGE value="override constructor" />
     <MESSAGE value="Interface Composition Jet" />
     <MESSAGE value="Abastract Quiz" />
@@ -656,7 +649,8 @@
     <MESSAGE value="lambda, extensionfun" />
     <MESSAGE value="exceptions" />
     <MESSAGE value="nullable and type system" />
-    <option name="LAST_COMMIT_MESSAGE" value="nullable and type system" />
+    <MESSAGE value="generic tk" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic tk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

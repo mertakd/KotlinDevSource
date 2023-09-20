@@ -80,3 +80,138 @@ val boxOfDogsFromAnimals: Box<Dog> = Box<Animal>() // This will give a compiler 
 
 
 //Covariance (out)
+/*
+open class Animal
+class Dog : Animal()
+class Cat : Animal()
+
+
+class Box<T>
+
+
+
+val animals: List<Animal> = listOf(Dog(), Cat())
+val dogs: List<Dog> = listOf(Dog(), Dog())
+val cats: List<Cat> = listOf(Cat(), Cat())
+*/
+
+
+/*
+
+open class Animal
+class Dog : Animal()
+class Cat : Animal()
+
+class Box<out  T>
+
+
+fun main() {
+
+    val dog: Dog = Dog()
+    val dogBox: Box<Dog> = Box<Dog>()
+    val animalBox: Box<Animal> = dogBox
+}
+
+*/
+
+/*
+
+
+open class Animal
+class Dog  : Animal(){
+    override fun toString(): String {
+        return "hav"
+    }
+}
+class Cat : Animal(){
+
+    override fun toString(): String {
+        return "meow"
+    }
+}
+
+fun copyAnimals(source: MutableList<out Animal>, destination: MutableList<in Animal>) {
+    destination.addAll(source)
+}
+
+fun main() {
+    val dogs: MutableList<Dog> = mutableListOf(Dog(), Dog())
+    val cats: MutableList<Cat> = mutableListOf(Cat(), Cat())
+
+    val animals: MutableList<Animal> = mutableListOf()
+
+    copyAnimals(dogs, animals)
+    copyAnimals(cats, animals)
+
+    println(animals)
+}
+*/
+
+
+/*
+
+open class Animal
+class Dog : Animal(){
+
+    override fun toString(): String {
+        return "hav"
+    }
+}
+class Cat : Animal(){
+
+    override fun toString(): String {
+        return "meow"
+    }
+}
+
+class Box<T>(val item: T)
+
+fun printItems(boxes: List<Box<*>>) {
+    for (box in boxes) {
+        println(box.item)
+    }
+}
+
+fun main() {
+    val dogBox = Box(Dog())
+    val catBox = Box(Cat())
+
+    val boxes: List<Box<*>> = listOf(dogBox, catBox)
+
+    printItems(boxes)
+}*/
+
+
+
+open class Animal {
+    fun feed() = println("The animal is fed")
+}
+
+class Dog : Animal() {
+    fun pet() = println("The dog is petted")
+}
+
+class Cat : Animal() {
+    fun ignore() = println("The cat ignores you")
+}
+
+class Box<in T, out R>(private var t: T, private val r: R) {
+    fun put(t: T) {
+        this.t = t
+    }
+
+    fun take(): R {
+        return r
+    }
+}
+
+fun main() {
+    val dogBox: Box<Animal, Dog> = Box(Dog(), Dog())
+    dogBox.put(Cat())  // OK: Cat is a subtype of Animal
+    val dog: Dog = dogBox.take()  // OK: take() returns Dog
+
+    val catBox: Box<Dog, Animal> = Box(Dog(), Cat())
+    // Error: Can't put Cat in Box<Dog, Animal>
+    // catBox.put(Cat())
+    val animal: Animal = catBox.take()  // OK: take() returns Animal
+}
