@@ -28,9 +28,21 @@ fun main1() {
 fun main2() {
 
     val addFive = { x: Int -> x + 5 }
+    //Bu kodda, addFive adlı bir değişkene bir lambda ifadesi atanmıştır. Bu lambda ifadesi, x adında bir parametre alır ve bu parametreye 5 ekler. Ancak, bu ifadenin kendisi henüz çalıştırılmamıştır. Yalnızca bir işlevi ifade eden bir yapıdır.
 
     var add = { x:Int -> x + 5}
     add = { y:Int -> y + 5}
+
+
+    val result = addFive(10)
+    println(result)
+    /*
+    *Burada, addFive değişkeni çağrılarak içindeki lambda ifadesi çalıştırılmıştır. 10 argümanı x parametresine geçirilir ve lambda ifadesi tarafından işlenir.
+    Sonuç olarak, result değişkeni 15 olarak değerlendirilir.
+    Yani, aslında lambda ifadesi kendisi çalıştırılmaz.
+    Onun yerine, bir değişkene atanır ve daha sonra bu değişken çağrılarak lambda ifadesi çalıştırılır.
+    Bu nedenle, lambda ifadesinin kendisi bir kod bloğu olarak düşünülebilir ve bir değişkene atanabilir. Bu değişken daha sonra çağrılarak ilgili kod bloğu çalıştırılır.
+    */
 
 
 }
@@ -111,9 +123,11 @@ fun main4() {
 
 
 
+
 }
 
 fun mainQuiz() {
+
 
     val lam1 = {x: Int -> x}
     println(lam1(29 + 6))

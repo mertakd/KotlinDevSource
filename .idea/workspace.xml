@@ -4,14 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="variance">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Andromeda/Reflection28/Reflection28.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Reflection/IntroductionReflectionKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Reflection/IntroductionReflectionKotlinQuiz.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Reflection/Reflection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Map/MapQuiz.kt" afterDir="false" />
+    <list default="true" id="2f9d9291-5e97-4eed-933b-1bdafa75c3fc" name="Changes" comment="reflection">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GoogleCodlab/Coroutines/Coroutines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GoogleCodlab/Coroutines/Threads.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/FunctionalProgramming/HighOrderFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/InlineFunctions/InlineFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/LambdaExpressions/InlineFunctions/InlineFunctionsQuiz.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod2024/FunctionalProgramming/HigherOrderFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod2024/OOP/Turtle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Kekod2024/OOP/TurtleJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Map/Map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/Map/Map.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/Andromeda/LambdaAndHighOrderFunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/Andromeda/LambdaAndHighOrderFunctionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$addInts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$addInts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$getConversionLambda$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$add$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main2$add$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$add2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$add2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$addFive3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$calculation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$calculation$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$myLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main4$myLambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main5$fahrenheit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main5$fahrenheit$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main5$fahrenheit2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main5$fahrenheit2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt$main6$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDevSource/HeadFirstKotlin/LambdaAndHighOrderFuncKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Andromeda/LambdaAndHighOrderFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Andromeda/LambdaAndHighOrderFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Delegate/BasicDelegate/Delegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/Delegate/BasicDelegate/Delegate.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,62 +69,63 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mert_/OneDrive/Documents/GithubProjects/BigNerdKotlin/SandBox/Sandbox",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mert_/OneDrive/Documents/GithubProjects/BigNerdKotlin/SandBox/Sandbox&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\src\main\kotlin\JetBrainsAcademy\LambdaExpressions\InlineFunctions" />
+      <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\src\main\kotlin\Kekod2024\FunctionalProgramming" />
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\src\main\kotlin\Kekod\Classes" />
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\JetBrainsAcademy\JetBrainsAcademyVariables" />
       <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\JetBrainsAcademy\JetBrainsAcademyFunction" />
-      <recent name="C:\Users\mert_\OneDrive\Documents\GithubProjects\KotlinDevSource\KotlinDevSource\src\main\kotlin\Atom" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.IntroductionReflectionKotlinKt">
-    <configuration name="IntroductionReflectionKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Classes.Reflection.IntroductionReflectionKotlinKt" />
+  <component name="RunManager" selected="Kotlin.InlineFunctionsQuizKt">
+    <configuration name="HighOrderFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.HeadFirstKotlin.FunctionalProgramming.HighOrderFunctionKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntroductionReflectionKotlinQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Classes.Reflection.IntroductionReflectionKotlinQuizKt" />
+    <configuration name="InlineFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.LambdaExpressions.InlineFunctions.InlineFunctionKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Collections.Map.MapKt" />
+    <configuration name="InlineFunctionsQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.LambdaExpressions.InlineFunctions.InlineFunctionsQuizKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.JetBrainsAcademy.Collections.Map.MapQuizKt" />
+    <configuration name="ThreadsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.GoogleCodlab.Coroutines.ThreadsKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflection28Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.Andromeda.Reflection28.Reflection28Kt" />
+    <configuration name="TurtleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JetBrainsAcademy.Projects.CoffeeMachine.Kekod2024.OOP.TurtleKt" />
       <module name="KotlinDevSource" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.IntroductionReflectionKotlinKt" />
-        <item itemvalue="Kotlin.IntroductionReflectionKotlinQuizKt" />
-        <item itemvalue="Kotlin.Reflection28Kt" />
-        <item itemvalue="Kotlin.MapQuizKt" />
-        <item itemvalue="Kotlin.MapKt" />
+        <item itemvalue="Kotlin.InlineFunctionsQuizKt" />
+        <item itemvalue="Kotlin.InlineFunctionKt" />
+        <item itemvalue="Kotlin.TurtleKt" />
+        <item itemvalue="Kotlin.HighOrderFunctionKt" />
+        <item itemvalue="Kotlin.ThreadsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +292,27 @@
       <workItem from="1694935085633" duration="43392000" />
       <workItem from="1695116239942" duration="24258000" />
       <workItem from="1695200198795" duration="10214000" />
-      <workItem from="1695301415152" duration="8405000" />
+      <workItem from="1695301415152" duration="11524000" />
+      <workItem from="1695378256996" duration="2160000" />
+      <workItem from="1695851111340" duration="4588000" />
+      <workItem from="1696598748204" duration="74000" />
+      <workItem from="1697722541499" duration="347000" />
+      <workItem from="1697725404121" duration="619000" />
+      <workItem from="1710312277929" duration="638000" />
+      <workItem from="1710312944851" duration="8937000" />
+      <workItem from="1710425138454" duration="3042000" />
+      <workItem from="1710774592460" duration="3951000" />
+      <workItem from="1710858766538" duration="8379000" />
+      <workItem from="1710895227265" duration="2381000" />
+      <workItem from="1710958303756" duration="9730000" />
+      <workItem from="1711039371723" duration="2410000" />
+      <workItem from="1711066024834" duration="7665000" />
+      <workItem from="1711144999196" duration="14077000" />
+      <workItem from="1711181097089" duration="2587000" />
+      <workItem from="1711343723476" duration="138000" />
+      <workItem from="1711448997783" duration="627000" />
+      <workItem from="1711465768254" duration="5782000" />
+      <workItem from="1711794979291" duration="5090000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1678998576591</created>
@@ -603,15 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692558777687</updated>
     </task>
-    <task id="LOCAL-00085" summary="variance">
+    <task id="LOCAL-00086" summary="reflection">
       <option name="closed" value="true" />
-      <created>1695209437154</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
+      <created>1695325669646</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
       <option name="project" value="LOCAL" />
-      <updated>1695209437155</updated>
+      <updated>1695325669646</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +677,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Interface Composition Jet" />
     <MESSAGE value="Abastract Quiz" />
     <MESSAGE value="Generics" />
     <MESSAGE value="Generics ek" />
@@ -655,7 +701,8 @@
     <MESSAGE value="nullable and type system" />
     <MESSAGE value="generic tk" />
     <MESSAGE value="variance" />
-    <option name="LAST_COMMIT_MESSAGE" value="variance" />
+    <MESSAGE value="reflection" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -971,71 +1018,6 @@
           <option name="timeStamp" value="496" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>5</line>
-          <option name="timeStamp" value="497" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>6</line>
-          <option name="timeStamp" value="498" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>7</line>
-          <option name="timeStamp" value="499" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>8</line>
-          <option name="timeStamp" value="500" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>9</line>
-          <option name="timeStamp" value="501" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>10</line>
-          <option name="timeStamp" value="502" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>11</line>
-          <option name="timeStamp" value="503" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>15</line>
-          <option name="timeStamp" value="504" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>17</line>
-          <option name="timeStamp" value="505" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>20</line>
-          <option name="timeStamp" value="507" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>21</line>
-          <option name="timeStamp" value="508" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>22</line>
-          <option name="timeStamp" value="509" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>24</line>
-          <option name="timeStamp" value="510" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Classes/OperatorOverloading/OperatorOverloadingQuiz.kt</url>
           <line>16</line>
           <option name="timeStamp" value="620" />
@@ -1059,24 +1041,6 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/Collections/MutableList/MutableListQuiz.kt</url>
           <line>138</line>
           <option name="timeStamp" value="642" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
-          <line>48</line>
-          <option name="timeStamp" value="667" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
-          <line>50</line>
-          <option name="timeStamp" value="668" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/HeadFirstKotlin/LambdaAndHighOrderFunc.kt</url>
-          <line>53</line>
-          <properties>
-            <option name="lambda-ordinal" value="0" />
-          </properties>
-          <option name="timeStamp" value="669" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/SimpleChattyBot/MultibleChooice5.kt</url>
@@ -1158,15 +1122,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="491" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/JetBrainsAcademy/JetBrainsAcademyFunction/FunctionReferance.kt</url>
-          <line>19</line>
-          <properties method="printNumbers">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="506" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/Andromeda/BayramTask3.kt</url>

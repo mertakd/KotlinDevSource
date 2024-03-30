@@ -30,7 +30,7 @@ class MyImplementation : MyInterface {
 
 
 
-
+//delegasyon ile print fonksiyonunu yazmamız gerekmiyor.
 class MyNewClass(base: MyInterface) : MyInterface by base {
 
     override val msg = "Delegate sends regards."
@@ -41,13 +41,76 @@ class MyNewClass(base: MyInterface) : MyInterface by base {
 }
 
 
-fun main() {
+fun main123() {
 
-    val a = MyImplementation()
+    val delegate = MyImplementation() //delegate
+
+    val delegatingObj = MyNewClass(delegate)
+    println(delegatingObj.msg)
+
+    println(delegatingObj.print())
+    //delege.print() yazdığımız zaman bu fonksiyon çağrılır. Yani, MyNewClass sınıfı bu görevi MyImplementation'a (temsilci) devreder.
+}
 
 
-    println("delegate oluyor")
-    val delegate = MyNewClass(a)
-    println(delegate.msg)
-    println(delegate.print())
+
+
+
+
+
+
+
+
+
+
+
+interface ICallbackReceiver {
+    fun onBeforeAction()
+    fun onAfterAction()
+    fun action(function: () -> Unit) {
+        onBeforeAction()
+        function()
+        onAfterAction()
+    }
+}
+
+// Defines the contract for logging
+interface ILogger {
+    fun getStubDateTime() = "05.11.2022-14:31:04" // placeholder date and time
+
+    val format: String
+        get() = "[${getStubDateTime()}]: "
+
+    fun print(s: String)
+}
+
+
+
+// Simple implementation of ILogger interface
+class BasicLogger : ILogger {
+    override fun print(s: String) = println(format + s)
+}
+
+// Implementation of ICallbackReceiver that uses BasicLogger for printing
+class ConsoleNotifier(logger: ILogger) : ICallbackReceiver, ILogger by logger {
+    val onBeforeStr = "OnBefore!"
+    val onAfterStr = "OnAfter!"
+
+    // "print" is delegated to "logger"
+    override fun onBeforeAction() = print(onBeforeStr)
+    override fun onAfterAction() = print(onAfterStr)
+}
+
+
+
+class ExampleParser(notifier: ConsoleNotifier, logger: BasicLogger) :
+    ICallbackReceiver by notifier,
+    ILogger by logger {
+
+    fun start() = action { parseFiles() }
+
+    fun parseFiles() {
+        print("Parsing...")
+        // do some file parsing
+    }
 }
